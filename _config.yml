@@ -160,10 +160,10 @@ yat:
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+defaults:
+   home:
+     heading: "专注人工智能数学原理与应用"
+     subheading: "线性代数 概率与统计 微积分 机器学习 深度学习"
 #     banner: "Your image url"
 
 # Banner default settings
