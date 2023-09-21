@@ -251,4 +251,3 @@ plugins:
   - jekyll-spaceship
 
 sort_by: date # or title
-excerpt_separator: "<!--more-->"
