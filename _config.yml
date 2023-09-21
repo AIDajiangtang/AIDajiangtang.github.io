@@ -231,7 +231,7 @@ defaults:
 # set follow_site_theme true to make utterances' theme follow the site's
 
 utterances:
-  repo: "AIDajiangtang/AIDajiangtang.github.io"
+  repo: "AIDajiangtang/blogcomments"
   issue_term: "title"
   label: "utterances comment"
   theme: "github-light"
