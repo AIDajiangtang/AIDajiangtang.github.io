@@ -189,6 +189,7 @@ excerpt:
   image_width: 38.2%      # Image default width
   image_height: 160px     # Image default height
   text_size: 350          # Words default size
+  excerpt_separator: <!--more-->
 
 # Pagination setting
 # paginate: 5
