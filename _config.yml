@@ -251,3 +251,22 @@ plugins:
   - jekyll-spaceship
 
 sort_by: date # or title
+
+exclude:
+  - _posts\2015-01-01-welcome-to-jekyll.md
+  - _posts\2015-02-28-test-markdown.md
+  - _posts\2016-01-01-another-test-markdown.md
+  - _posts\2016-05-19-super-short-article.md
+  - _posts\2016-08-12-my-example-post.md
+
+  - _posts\2017-05-20-this-post-demonstrates-post-content-styles.md
+  - _posts\2017-06-10-quick-mardown-example.md
+  - _posts\2017-12-04-plantuml-example.md
+  - _posts\2017-12-08-mermaid-example.md
+  - _posts\2017-12-15-table-example.md
+
+  - _posts\2017-12-18-video-example.md
+  - _posts\2018-05-26-mathjax-test.md
+  - _posts\2018-12-05-an-exhibit-of-markdown.md
+  - _posts\2017-12-08-mermaid-example.md
+  - _posts\2023-09-20-my first article.md
