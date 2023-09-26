@@ -250,5 +250,5 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
 
-lsi: true
+
 
