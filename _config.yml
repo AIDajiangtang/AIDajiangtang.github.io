@@ -250,5 +250,5 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
 
-sort_by: date # or title
+lsi: true
 
