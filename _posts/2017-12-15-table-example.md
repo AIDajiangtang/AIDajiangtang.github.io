@@ -4,6 +4,7 @@ title: Table example
 subtitle:
 categories: example
 tags: [table]
+exclude: true 
 ---
 
 ## Table example as below

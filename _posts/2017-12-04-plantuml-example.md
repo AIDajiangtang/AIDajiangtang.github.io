@@ -3,6 +3,7 @@ layout: post
 title: Plantuml example
 categories: example
 tags: [plantuml]
+exclude: true 
 ---
 
 ## My First PlantUML

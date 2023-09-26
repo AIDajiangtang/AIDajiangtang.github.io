@@ -3,6 +3,7 @@ layout: post
 title: Mermaid example
 categories: example
 tags: [mermaid]
+exclude: true 
 ---
 
 ### 1. Pie chart

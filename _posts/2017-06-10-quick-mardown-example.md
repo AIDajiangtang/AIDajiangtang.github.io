@@ -5,6 +5,7 @@ subtitle: This is a quick markdown example
 categories: markdown
 tags: [example]
 top: 2
+exclude: true 
 ---
 
 Paragraphs are separated by a blank line.
