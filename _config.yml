@@ -251,4 +251,4 @@ plugins:
   - jekyll-spaceship
 
 
-
+page_excerpts: false
