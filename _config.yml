@@ -252,6 +252,3 @@ plugins:
 
 sort_by: date # or title
 
-
-exclude:
-- _posts/2015-01-01-welcome-to-jekyll.md
