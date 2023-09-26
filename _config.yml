@@ -254,4 +254,4 @@ sort_by: date # or title
 
 
 exclude:
-- about.html
+- 2015-01-01-welcome-to-jekyll.md
