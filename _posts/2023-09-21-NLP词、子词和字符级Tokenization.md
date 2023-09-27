@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "词、子词和字符级Tokenization"
 categories: 我的AI新书
