@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: "0.序"
 categories: kaggle colab中的一些常用小技巧
