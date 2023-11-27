@@ -110,6 +110,7 @@ void insert(const char* key) {
 }
 ```
 
+
 ```ruby
 p ":+1:"
 ```
