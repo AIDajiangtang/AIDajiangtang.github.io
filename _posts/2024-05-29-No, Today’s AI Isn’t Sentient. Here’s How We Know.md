@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: "No, Today’s AI Isn’t Sentient. Here’s How We Know"
-categories: 2024 AI News
+categories: 2024AINews
 
 excerpt: "2024 AI News"
 
