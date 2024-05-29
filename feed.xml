@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/jekyll-theme-yat/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyll-theme-yat/" rel="alternate" type="text/html" /><updated>2024-05-29T02:56:40+00:00</updated><id>/jekyll-theme-yat/feed.xml</id><title type="html">人工智能大讲堂</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>人工智能大讲堂</name></author><entry><title type="html">No, Today’s AI Isn’t Sentient. Here’s How We Know</title><link href="/jekyll-theme-yat/2024ainews/2024/05/29/No,-Today-s-AI-Isn-t-Sentient.-Here-s-How-We-Know.html" rel="alternate" type="text/html" title="No, Today’s AI Isn’t Sentient. Here’s How We Know" /><published>2024-05-29T00:00:00+00:00</published><updated>2024-05-29T00:00:00+00:00</updated><id>/jekyll-theme-yat/2024ainews/2024/05/29/No,%20Today%E2%80%99s%20AI%20Isn%E2%80%99t%20Sentient.%20Here%E2%80%99s%20How%20We%20Know</id><content type="html" xml:base="/jekyll-theme-yat/2024ainews/2024/05/29/No,-Today-s-AI-Isn-t-Sentient.-Here-s-How-We-Know.html"><![CDATA[<p>Artificial general intelligence (AGI) is the term used to describe an artificial agent that is at least as intelligent as a human in all the many ways a human displays (or can display) intelligence. It’s what we used to call artificial intelligence, until we started creating programs and devices that were undeniably “intelligent,” but in limited domains—playing chess, translating language, vacuuming our living rooms.</p>
+
+<p>通用人工智能（AGI）是一个术语，用于描述在人类所能展示的智能的所有维度上，至少和人类具备同等水平的人工智能体。</p>
+
+<p>The felt need to add the “G” came from the proliferation of systems powered by AI, but focused on a single or very small number of tasks. Deep Blue, IBM’s impressive early chess playing program, could beat world champion Garry Kasparov, but would not have the sense to stop playing if the room burst into flames.</p>
+
+<p>之所以需要添加“G”，是因为由AI驱动的系统激增，但它们只专注于单一或极少数任务。IBM的“深蓝”可以击败世界冠军卡斯帕罗夫，但即使房间着火，它也不能理解是时候停止下棋了。</p>
+
+<p>Now, general intelligence is a bit of a myth, at least if we flatter ourselves that we have it. We can find plenty of examples of intelligent behavior in the animal world that achieve results far better than we could achieve on similar tasks. Our intelligence is not fully general, but general enough to get done what we want to get done in most environments we find ourselves in. If we’re hungry, we can hunt a mastodon or find a local Kroger’s; when the room catches on fire, we look for the exit.</p>
+
+<p>现在，通用智能有点像一个神话，至少如果我们自命不凡地认为我们拥有它的话。</p>
+
+<p>在动物世界中可以找到大量智能行为的例子，其结果远远好于人类在类似任务上取得的成果。这么说吧，我们的智力不是完全通用的，但足够通用，足以使我们在大多数环境中完成自己想做的事。</p>
+
+<p>如果我们饿了，我们会去找当地的超市。如果房间着火，我们会去找逃生出口。</p>
+
+<p>One of the essential characteristics of general intelligence is “sentience,” the ability to have subjective experiences—to feel what it’s like, say, to experience hunger, to taste an apple, or to see red. Sentience is a crucial step on the road to general intelligence.</p>
+
+<p>通用智能的基本特征之一是“感知力”，即拥有主观体验的能力。知觉是通向通用智能的关键一步。</p>
+
+<p>With the release of ChatGPT in November 2022, the era of large language models (LLMs) began. This instantly sparked a vigorous debate about whether these algorithms might in fact be sentient. The implications of the possible sentience of LLM-based AI has not only set off a media frenzy, but also profoundly impacted some of the world-wide policy efforts to regulate AI. The most prominent position is that the emergence of “sentient AI” could be extremely dangerous for human-kind, possibly bringing about an “extinction-level” or “existential” crisis. After all, a sentient AI might develop its own hopes and desires, with no guarantee they wouldn’t clash with ours.</p>
+
+<p>随着ChatGPT的发布，大语言模型（LLM）时代已经拉开序幕。这立即引发了关于这些算法是否真的具备知觉的激烈争论。</p>
+
+<p>基于LLM的人工智能可能具备的知觉，不仅引发了媒体的狂欢，也深刻地影响到了全球范围内对如何监管AI的态度。</p>
+
+<p>最突出的观点是，“有知觉的AI”的出现可能对人类极其危险，会带来“人类灭绝”、“生存危机”。</p>
+
+<p>毕竟，有知觉的AI可能会发展出自己的欲望，人类无法保证它们不与我们发生冲突。</p>
+
+<p>This short piece started as a WhatsApp group chat to debunk the argument that LLMs might have achieved sentience. It is not meant to be complete or comprehensive. Our main point here is to argue against the most common defense offered by the “sentient AI” camp, which rests on LLMs’ ability to report having “subjective experiences.”</p>
+
+<p>这篇短文源于一次群聊，目的是反驳LLM可能已经获得知觉的论点。这并不完整全面。我们的主要观点是反对“有知觉的AI”阵营提供的最常见的论点。</p>
+
+<h1 id="why-some-people-believe-ai-has-achieved-sentience">Why some people believe AI has achieved sentience</h1>
+
+<h1 id="为什么有些人相信ai已经获得知觉">为什么有些人相信AI已经获得知觉</h1>
+
+<p>Over the past months, both of us have had robust debates and conversations with many colleagues in the field of AI, including some deep one-on-one conversations with some of the most prominent and pioneering AI scientists. The topic of whether AI has achieved sentience has been a prominent one. A small number of them believe strongly that it has. Here is the gist of their arguments by one of the most vocal proponents, quite representative of those in the “sentient AI” camp:</p>
+
+<p>在过去几个月里，我们俩与AI领域的许多同事进行了激烈的辩论和对话，其中包括与一些最著名AI科学家的一对一对谈。</p>
+
+<p>AI是否具有知觉一直是一个焦点话题。他们中的一小部分人坚信事实确实如此。以下是其中一位代表的观点：</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>“AI is sentient because it reports subjective experience. Subjective experience is the hallmark of consciousness. It is characterized by the claim of knowing what you know or experience. I believe that you, as a person, are conscious when you say ‘I have the subjective experience of feeling happy after a good meal.’ I, as a person, actually have no direct evidence of your subjective experience. But since you communicated that, I take it at face value that indeed you have the subjective experience and so are conscious.
+
+“Now, let’s apply the same ‘rule’ to LLMs. Just like any human, I don’t have access to an LLM’s internal states. But I can query its subjective experiences. I can ask ‘are you feeling hungry?’ It can actually tell me yes or no. Furthermore, it can also explicitly share with me its ‘subjective experiences,’ on almost anything, from seeing the color red, being happy after a meal, to having strong political views. Therefore, I have no reason to believe it’s not conscious or not aware of its own subjective experiences, just like I have no reason to believe that you are not conscious. My evidence is exactly the same in both cases.”
+
+人工智能是有知觉的，因为它具有主观体验。主观体验是意识的标志，特点是声称知道自己所知道或经历的事情。比如，当一个人说“我有吃完一顿大餐后感到幸福的主观体验”时，这个人是具备意识的。
+
+其实没有什么直接证据能证明主观体验。但如果你传达了这一点，从表面上看，你就是有意识的。
+
+现在，让我们对大模型应用相同的“规则”。就像没办法知道一个人究竟在想什么，我们无法访问大模型的内部状态，但可以质疑它的主观体验。
+
+现在大模型可以明确地分享“主观体验”，比如看到红色是什么感觉。因此，我没有理由怀疑它不具备意识，就像我没有理由怀疑一个人没有意识一样。
+
+</code></pre></div></div>
+
+<h1 id="why-theyre-wrong">Why they’re wrong</h1>
+
+<h1 id="为什么他们错了">为什么他们错了</h1>
+
+<p>While this sounds plausible at first glance, the argument is wrong. It is wrong because our evidence is not exactly the same in both cases. Not even close.</p>
+
+<p>这乍一看很有道理，但这个论点是错误的。两种情况完全不可同日而语。</p>
+
+<p>When I conclude that you are experiencing hunger when you say “I’m hungry,” my conclusion is based on a large cluster of circumstances. First, is your report—the words that you speak—and perhaps some other behavioral evidence, like the grumbling in your stomach. Second, is the absence of contravening evidence, as there might be if you had just finished a five-course meal. Finally, and this is most important, is the fact that you have a physical body like mine, one that periodically needs food and drink, that gets cold when it’s cold and hot when it’s hot, and so forth.</p>
+
+<p>当你说“我饿了”时，你正在经历饥饿，而我判断你的主观体验是基于大量的事实证据。</p>
+
+<p>首先，是你说的话，也许还有一些其他行为证据，比如肚子的咕咕声。</p>
+
+<p>其次，没有相矛盾的证据，比如你其实刚吃完一顿四菜一汤的大餐。</p>
+
+<p>最后，也是最重要的一点，你我拥有一样的肉体，需要周期性地进食进水，冷时冷，热时热，等等。</p>
+
+<p>Now compare this to our evidence about an LLM. The only thing that is common is the report, the fact that the LLM can produce the string of syllables “I’m hungry.” But there the similarity ends. Indeed, the LLM doesn’t have a body and so is not even the kind of thing that can be hungry.</p>
+
+<p>If the LLM were to say, “I have a sharp pain in my left big toe,” would we conclude that it had a sharp pain in its left big toe? Of course not, it doesn’t have a left big toe! Just so, when it says that it is hungry, we can in fact be certain that it is not, since it doesn’t have the kind of physiology required for hunger.</p>
+
+<p>而大模型呢？它可以产生一串音节说“我饿了”，但相似之处到此为止。大模型没有身体，根本就不会挨饿。它不具备饥饿所需要的生理机能。</p>
+
+<p>所有的感觉——饥饿、疼痛、坠入爱河，都是大模型根本不具备的生理状态导致的结果。因此大模型不可能对这些状态有主观体验。换句话说，它不可能有感知力。</p>
+
+<p>大模型是在芯片上编码的数学模型，并非如人类一样的具体存在。它没有需要进食、饮水、繁殖、经历情感、生病并最终死亡的“生命”。</p>
+
+<p>理解人类如何生成单词序列，和大模型如何生成相同序列之间的深刻差异非常重要。</p>
+
+<p>When humans experience hunger, they are sensing a collection of physiological states—low blood sugar, empty grumbling stomach, and so forth—that an LLM simply doesn’t have, any more than it has a mouth to put food in and a stomach to digest it. The idea that we should take it at its word when it says it is hungry is like saying we should take it at its word if it says it’s speaking to us from the dark side of the moon. We know it’s not, and the LLM’s assertion to the contrary does not change that fact.</p>
+
+<p>当我说“我饿了”时，我是在报告我感知到的生理状态。</p>
+
+<p>All sensations—hunger, feeling pain, seeing red, falling in love—are the result of physiological states that an LLM simply doesn’t have. Consequently we know that an LLM cannot have subjective experiences of those states. In other words, it cannot be sentient.</p>
+
+<p>An LLM is a mathematical model coded on silicon chips. It is not an embodied being like humans. It does not have a “life” that needs to eat, drink, reproduce, experience emotion, get sick, and eventually die.</p>
+
+<p>It is important to understand the profound difference between how humans generate sequences of words and how an LLM generates those same sequences. When I say “I am hungry,” I am reporting on my sensed physiological states. When an LLM generates the sequence “I am hungry,” it is simply generating the most probable completion of the sequence of words in its current prompt. It is doing exactly the same thing as when, with a different prompt, it generates “I am not hungry,” or with yet another prompt, “The moon is made of green cheese.” None of these are reports of its (nonexistent) physiological states. They are simply probabilistic completions.</p>
+
+<p>当LLM生成“我饿了”这个序列时，它只是在生成当前提示中单词序列最可能的补全。这是概率补全。</p>
+
+<p>我们还没有实现有知觉的人工智能，更大的语言模型也不会让我们实现这一目标。</p>
+
+<p>如果我们想在AI系统中实现知觉，我们需要更好地了解知觉到底是如何在生物系统中产生的。</p>
+
+<p>We have not achieved sentient AI, and larger language models won’t get us there. We need a better understanding of how sentience emerges in embodied, biological systems if we want to recreate this phenomenon in AI systems. We are not going to stumble on sentience with the next iteration of ChatGPT.</p>
+
+<p>我们不会在下个版本的ChatGPT中偶然发现知觉。</p>
+
+<p>Li and Etchemendy are co-founders of the Institute for Human-Centered Artificial Intelligence at Stanford University. Li is a professor of Computer Science, author of ‘The Worlds I See,’ and 2023 TIME100 AI honoree. Etchemendy is a professor of Philosophy and former provost of Stanford.</p>]]></content><author><name>人工智能大讲堂</name></author><category term="2024AINews" /><summary type="html"><![CDATA[2024 AI News]]></summary></entry><entry><title type="html">一起学AI 4-提升AI开发效率的抽象思维</title><link href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html" rel="alternate" type="text/html" title="一起学AI 4-提升AI开发效率的抽象思维" /><published>2023-12-07T00:00:00+00:00</published><updated>2023-12-07T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4</id><content type="html" xml:base="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html"><![CDATA[<p>在正式开始之前，有必要先了解一下“抽象”的概念。</p>
+
+<p>抽象，简单来说，就是把一些具体的、复杂的、细节的东西，用一些简单的、通用的、本质的东西来表示。<strong>抽象的目的，就是为了减少复杂度，提高效率，增强表达力，方便理解和沟通</strong>。</p>
+
+<p>我们身边到处都是抽象的应用，无论是艺术、文学、商业，还是数据、编程、AI，都离不开抽象思维的应用。</p>
+
+<p>艺术上的抽象派不描述复杂的自然世界，而是通过简单的形状、颜色、线条等元素来表达艺术家的主观感受或思想。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/abstract_paint.jpeg" alt="alt" /></p>
+
+<p>我国古代诗人通过寥寥数语就能描绘出一个时代的风貌。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/poem.jpg" alt="alt" /></p>
+
+<p>无需详尽了解员工和产品细节,仅通过公司的战略就能掌握其业务本质。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/Corporate-Strategy.jpg" alt="alt" /></p>
+
+<p>从原始数据中提取知识,再由知识做出决策,这一过程也是一种抽象。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/DIKW_Pyramid.png" alt="alt" /></p>
+
+<p>回归AI这一主题。教会机器从数据中学习经验并做出决策，是AI最根本的功能。而AI系统对数据的处理到最终决策，都离不开计算机软硬件的适配与协作。</p>
+
+<p>让我们先来看一下，计算机是如何通过不同层次的抽象，最终将人类的决策转化为CPU可识别执行的二进制机器码的。</p>
+
+<h2 id="打孔技术">打孔技术</h2>
+
+<p>打孔卡是计算机发展早期使用的一种程序输入设备。最初由赫尔曼·霍利特发明，它是由纸板或纸卡制作的卡片，卡片上有多列可以打孔的槽。程序员可以通过打孔编码在卡片上输入计算机程序。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/punch-card.png" alt="alt" /></p>
+
+<p>存储容量小是打孔卡致命的缺点，如果用打孔卡存储一个贪吃蛇程序，就会像拉着一车金圆券去买面包一样。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/punch-cards.png" alt="alt" /></p>
+
+<p>最终，在20世纪60年代开始被磁带技术取代，直到现在使用的机械磁盘或者固态硬盘。</p>
+
+<h2 id="计算机软件抽象层次">计算机软件抽象层次</h2>
+
+<p>很庆幸我们没有生活在打孔卡那个年代，但今天的幸福也是建立在一代又一代计算机科学家、工程师不懈努力的基础之上。这个努力的过程也是计算机的抽象过程，随着抽象程度的提升，开发效率也在不断提升。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/softwareablevel.jpg" alt="软件抽象层次" /></p>
+
+<p>由上图可知，编译器实现了从二进制码到汇编语言,再到高级语言等更高层次抽象迈进。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/C++%20Java%20Python.png" alt="alt" /></p>
+
+<p>面向更高级语言的解释器(Interpreter),则是实现抽象化的另一种有效工具。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/hardware-abstraction.png" alt="计算机抽象层次" /></p>
+
+<p>高级编程语言实现了对CPU指令集和CPU寄存器的抽象封装；在编程语言的基础上，操作系统又实现了对进程，外设的抽象封装。</p>
+
+<p>针对不同领域也在持续进行着域专用库和基础组件的开发。例如，为简化数值计算与线性代数，出现了BLAS、LAPACK、Eigen、MATLAB等工具库。对于网络和分布式编程的难点，则由libcurl、Boost.Asio、gRPC、Netty等框架进行了封装，降低了开发的门槛与复杂度。</p>
+
+<p>在基础组件的基础上，针对不同行业，例如，医疗、金融、生物化学也有专门的框架和工具，以实现业务抽象。</p>
+
+<p>抽象，从设计模式的角度来看,就是通过将通用技术细节下沉,让业务逻辑上浮，从而提高各组件间的解耦性。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/OSI.png" alt="OSI" /></p>
+
+<h2 id="ai中的抽象层次">AI中的抽象层次</h2>
+
+<p>人工智能是立足于计算机科学基础之上的前沿技术，因此构建AI系统同样需要抽象化的方法论支撑。</p>
+
+<p>同时AI又是多学科交叉的应用与探索，如此，AI比传统软件系统需要面对更加复杂的问题，对抽象化的依赖也更加紧迫。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/aiab.png" alt="OSI" /></p>
+
+<p>让我们自底向上看去。</p>
+
+<h3 id="并行计算库">并行计算库</h3>
+
+<p>如上图所示，AI与普通程序都需要运行在硬件芯片上，但是AI的训练和推理都需要大量的计算，相比于CPU，拥有并行计算能力的GPU更为常用。</p>
+
+<p>如何高效控制并发计算GPU硬件资源，NVIDIA提供了CUDA这个并行计算平台和编程模型。它针对GPU的架构特点,对其指令集和底层操作进行了抽象封装，让开发者能以更高层次的方式使用GPU的并行计算能力，而不需要直接控制硬件。</p>
+
+<h3 id="机器学习框架">机器学习框架</h3>
+
+<p>如果你不想去调用复杂CUDA函数库，也不擅长线性代数，更不想为如何实现优化算法所烦恼，那机器学习框架是你最好的选择。</p>
+
+<p>机器学习框架对底层数学原理进行了抽象封装。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/allmlframeworks.png" alt="机器学习框架" /></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/trends.png" alt="受欢迎程度" /></p>
+
+<p>除了TensorFlow和PyTorch，scikit-learn作为经典的传统机器学习python库也广泛使用。国内的一些框架也具有竞争力，例如百度的PaddlePaddle，还有华为的MindSpore框架，都被业界视为TensorFlow和PyTorch的有力竞争者。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/AI%20framework%20foren.png" alt="大厂AI框架" /></p>
+
+<p>上图为各大厂构建的AI生态，所谓大厂开发，必是精品，大厂推出的框架和平台，通常在技术实现和生态建设上更加领先。除了有强大的公司研发实力支持,同时也拥有广泛活跃的开发者社区。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/language.png" alt="支持的编程语言" /></p>
+
+<p>为适应不同开发者和运行环境的需求，主流框架通常会支持多种编程语言，如Python、Java、C++等接口的开发。</p>
+
+<p>有了框架，接下来你就可以按照下面流程进行开发了。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/liuchengtu.png" alt="AI开发流程图" /></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/allinone.png" alt="AI开发流程图" /></p>
+
+<h3 id="云服务">云服务</h3>
+
+<p>然而，如果自己没有GPU或高配置服务器，想Training复杂的AI模型该怎么办?这时可以考虑使用云服务，在云服务器上搭建开发环境，开发者可以通过网页远程连接服务器，获得临时的算力支持。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/cloud.png" alt="云服务" /></p>
+
+<p>现在这种基础设施即服务的提供越来越成熟，知名的有阿里云、腾讯云、华为云、AWS、Azure等。</p>
+
+<h3 id="在线ai平台">在线AI平台</h3>
+
+<p>如果不想花钱租云服务器，怎么办？这里说一下我个人的经历。</p>
+
+<p>在第一篇文章中,我提到自己是从2019年开始接触AI。这一时间点需要更正到2017年。当时对于初学者来说，第一步肯定就是配置一个主流的AI开发框架。我记得Google当时最流行的TensorFlow框架就是新人的不二之选。然而在我尝试安装TensorFlow时，因为种种依赖与环境问题,终告失败收场。这便应验了那句话——还未开始,就已结束。</p>
+
+<p>直到2019年无意间发现百度的在线平台：AI Studio。</p>
+
+<p>所谓的AI在线平台，就是比云服务器更进一步，你不需要安装任何软件。GPU硬件，驱动，AI框架，以及很多第三方库在服务端已经准备好了，只要有浏览器能上网就行，每个人都有免费的使用额度。</p>
+
+<p>目前为止，我最常用的两个AI在线平台有：AI Studio和谷歌的Colab。</p>
+
+<p>https://aistudio.baidu.com/projectoverview/public
+https://colab.research.google.com/?utm_source=scs-index</p>
+
+<p>当然，有的人可能出于数据安全角度，就想在本地安装训练环境，这个对于现在来说也要比当初要容易很多。</p>
+
+<p>你可以安装Anaconda，也就是集成了很多第三方Python库的集成开发环境。</p>
+
+<p>如果你了解容器，很多AI框架也提供了镜像，拉取下来直接用就可以了。</p>
+
+<h2 id="提升ai开发效率的工具">提升AI开发效率的工具</h2>
+
+<p>讲完了抽象，接下来再给大家介绍一些能够提升AI开发效率的工具。</p>
+
+<h3 id="大模型工具">大模型工具</h3>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/4/LLM.png" alt="大模型" /></p>
+
+<p>大语言模型已经彻底改变了我们工作的方式，能很大程度上提升开发效率，用AI开发AI也是一种很有意思的手段，你可以用它帮你生成训练、推理代码，让它帮你分析数据，让它帮你评估模型结果等等。</p>
+
+<p>在LLM中也存在着抽象的概念，Foundation Models就是在大规模语料上进行无监督训练得到的，它本质上学习的是语言模型，但这个语言模型还无法完成聊天、总结等具体任务，在FMs基础上进行有监督的微调才能得到像ChatGPT这样的大语言模型。</p>
+
+<p>如何定制自己的大语言模型？也会分为不同的层级。</p>
+
+<p>对于一些大公司，有钱，有技术，就可以从零开始，OPenAI的GPT，Google的Gemini，Anthropic的Claude，Meta的LLaMA就是这样的例子。</p>
+
+<p>这里要特殊说一下Meta，因为目前所有大模型中，只有LLaMA是开源的，但这并不是其本意，因为Meta前几年一直深陷于元宇宙而无暇顾及大模型，后来有所觉悟，为了不被彻底踢出局，所幸将大模型开源，一副“我赚不到钱，大家都别赚钱”的心态。</p>
+
+<p>而这些闭源的大模型厂家，要么发布付费的PlayGround，要么通过付费API供大家调用，这就给一些中小公司提供了商机，套壳一词也就由此而来。</p>
+
+<p>OPenAI提供的API不仅能直接调用发布的大模型，而且还能支持上传数据训练自定义模型。</p>
+
+<p>对于个人用户，要么选择调用API，要么直接使用免费的软件，这里给大家推荐两款：Hayo和Windows自带的Copilot。</p>
+
+<p><strong>Hayo：</strong>
+项目在线网址：https://www.hayo.com
+​
+或者关注微信公众号：人工智能大讲堂，后台回复hayo获取软件下载链接。</p>
+
+<h3 id="模型可视化工具">模型可视化工具</h3>
+
+<p>深度学习的可解释性差一直被人诟病，可视化工具则是一种窥探内部工作的必要工具。</p>
+
+<p>CNN解释器在线演示
+https://poloclub.github.io/cnn-explainer/
+源码
+https://github.com/poloclub/cnn-explainer
+论文
+https://arxiv.org/abs/2004.1500</p>
+
+<p>除此之外，还有一些非常好的资源，例如，kaggle，通过实战检验原理，Github，存储海量代码资源。</p>
+
+<p>https://www.kaggle.com/
+https://github.com/</p>
+
+<h2 id="总结">总结：</h2>
+
+<p>学会抽象思维，让学习变得更容易，让生活变得更简单，让人生变得更精彩。</p>
+
+<p><strong>下节预告：</strong></p>
+
+<p>到此，方法论已经讲完了，接下来将进入具体的细节，让计算机帮人类做事的第一步就是数字化，下一篇文章我们将了解不同的数字化形式和方法。</p>]]></content><author><name>人工智能大讲堂</name></author><category term="一起学AI" /><summary type="html"><![CDATA[一起学AI 4-提升AI开发效率的抽象思维]]></summary></entry><entry><title type="html">一起学AI 5-表格，图像，文本，声音的数字化是AI的开端</title><link href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC-%E6%96%87%E6%9C%AC-%E5%9B%BE%E5%83%8F-%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF.html" rel="alternate" type="text/html" title="一起学AI 5-表格，图像，文本，声音的数字化是AI的开端" /><published>2023-12-07T00:00:00+00:00</published><updated>2023-12-07T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC%EF%BC%8C%E6%96%87%E6%9C%AC%EF%BC%8C%E5%9B%BE%E5%83%8F%EF%BC%8C%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF</id><content type="html" xml:base="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC-%E6%96%87%E6%9C%AC-%E5%9B%BE%E5%83%8F-%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF.html"><![CDATA[<p>​我呆看窗外，熙攘的街景映入眼帘，街边的叫卖回荡耳边，细数过往的车辆，脑子却反复模拟明天相亲的场景，心理一直就是否应约做斗争，对方是一位身材高挑的妙龄少女，突然手机屏亮，是媒人发来催促的信息，最终，我决定抛硬币来决定命运。</p>
+
+<p>佛语有云，看山是山，看水是水，我看这段话是一段苦情小伙的内心告白，而在别人眼里，它却是承载丰富信息数据的生成过程。</p>
+
+<p>这段文字包含的数据形式有<strong>表格</strong>(妙龄，熙攘)，<strong>图像</strong>(街景)，<strong>声音</strong>(叫卖)，<strong>文本</strong>(信息)，产生这些数据的方式包括测量(数车辆)，传感器(眼睛看街景，耳朵听叫卖)，实验(抛硬币)，模拟(模拟相亲场景)。</p>
+
+<p>现实中的数据也大抵如此。</p>
+
+<p>好了，暂时回到AI的主题，人类靠眼睛感受世界，靠语言表达情感，靠倾听获取诉求，靠数字做出决策，人工智能的目的是要让计算机充当人类的眼睛，耳朵和嘴巴。但计算机是个异类，在它的世界里只有0和1这样的数字，所以要实现这个目的，第一步就是要数字化，也就是图像，语音，文本，表格数据的采集和存储。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/digit.png" alt="alt" /></p>
+
+<h2 id="表格数据">表格数据</h2>
+
+<p>最简单的就是表格数据了，我们经常用数字去凸显事物的特征，像人的身高，体重，年龄，学历；房子的面积，房间数，距离地铁的距离；这类数据之所以称为表格数据，是因为可以将其记录在像Excel这种表格里。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/table.png" alt="alt" /></p>
+
+<p>数字特征一般可以通过简单的计算和测量进行采集，但有的也需要一些复杂的统计方法。表格数据一般通过Excel，数据库等工具按照某种编码方式转换成二进制储到计算机硬盘。</p>
+
+<p>在使用表格数据时，一般通过Pandas将其加载到内存中，可以通过matplotlib进行可视化，最后将其转换成Numpy格式或者机器学习框架内在数据格式，通常是二维数组或者列表，集合；数据的每一行表示一个人或者一间房屋，每一列则是特征。</p>
+
+<p>通过每一行数据你只能了解一个人或者一间房屋的信息，但机器学习研究的是群体，是从一大堆数据中发现规律，为此，训练之前还要进行预处理，也可以称之为特征提取，比较重要的操作包括利用相关性分析去掉重复列或者与结果不相关列，使用PCA进行降维来保留最重要的特征。</p>
+
+<p>最后使用传统机器学习或者前馈神经网络对这些数据进行分类，回归，或者聚类等任务。例如，预测泰坦尼克号上游客的生存状况就是一个二分类问题，加利福尼亚房价预测就是一个回归问题。</p>
+
+<h2 id="图像">图像</h2>
+
+<p>现实生活中很多科技发明都源于自然的灵感，例如，飞机源于鸟，声纳源于海豚。</p>
+
+<p>人类可以通过眼睛感知外面的世界，这种能力当然不能被忽视，相机的灵感就是源于人类的视觉系统。</p>
+
+<p>目前还没有方法能将人眼看到的东西从大脑中提取出来显示到电脑中(听说马斯克正在搞的脑机接口有望实现此功能)，但相机可以，快门一按，一幅数字图像就产生了(注意，这里主要指的是数码相机而不是胶卷相机)。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/camera.png" alt="alt" /></p>
+
+<p>瞳孔 &lt;-&gt; 光圈，晶状体 &lt;-&gt; 镜头，视网膜 &lt;-&gt; 感光元件，大脑 &lt;-&gt; 存储器</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/camera%20principle.gif" alt="相机的成像原理" /></p>
+
+<p>最终我们就得到了下面这个图像矩阵。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/imagedata.png" alt="alt" /></p>
+
+<p>最近遥遥领先发布了搭载国产芯片的手机，瞬间燃起轩然大波，有不少买了新手机的发烧友都在朋友圈炫耀新手机拍的图像！</p>
+
+<p>对于成像的质量，其实关乎很多技术细节，这里主要介绍三个关键概念：相机分辨率，图像分辨率，显示器分辨率等等，</p>
+
+<p>先来看下ChatGPT对这三个概念的解释。</p>
+
+<ul>
+  <li>
+    <p><strong>相机分辨率</strong>：这是指相机的感光元件上的感光单元的个数，也就是相机的像素数。相机分辨率越高，意味着感光单元越多，能够记录更多的细节和信息，但也会占用更多的存储空间。相机分辨率通常用百万像素（megapixel）来表示，比如2000万像素，4000万像素等。</p>
+  </li>
+  <li>
+    <p><strong>图像分辨率</strong>：这是指数字图像中存储的信息量，也就是图像的像素数。图像分辨率越高，意味着图像包含的像素越多。</p>
+  </li>
+  <li>
+    <p><strong>显示器分辨率</strong>：这是指显示器的屏幕的像素组成的数量，也就是显示器的像素点。显示器分辨率越高，意味着像素点越多，显示的画面就越清晰，视觉效果就越好。显示器分辨率也可以用PPI或者DPI来衡量，或者直接用像素数来表示，比如1024×768，1920×1080等。</p>
+  </li>
+</ul>
+
+<p>相机分辨率，图像分辨率，显示器分辨率之间的联系是：</p>
+
+<p>相机分辨率决定了能够捕获的细节的多少，也就是说，被拍摄物体每单位面积所包含的像素数，相机分辨率很大程度上决定了图像质量的好坏。</p>
+
+<p>对于图像分辨率，是不是越大越好呢？我们都知道可以通过软件缩放来改变图像的大小，例如，将2*2的图像放大到一万倍，但简单的插值方法生成的像素没有增加细节，徒劳无功。</p>
+
+<p>这时，有人会站出来反驳，图像插值太low了，现在都用深度学习技术对图像质量进行优化，所谓硬件不够AI来凑，例如，使用生成式AI生成高质量图像，图像超分辨率，图像修复，图像风格迁移等，但AI是否能真正弥补硬件的不足，我没试过，这里就留给大家思考吧。</p>
+
+<p>接下来做一些科普，你知道一幅从太空传回来的图像能有多大吗？科学分析中使用的是高分辨率深空图像，可以达到几GB数据量级，深空相机则可以采集一亿像素以上的图像。</p>
+
+<p>图像分辨率也决定了图像在显示器上的显示效果，也就是说，图像的像素数要和显示器的像素点相匹配，才能达到最佳的清晰度。如果图像分辨率高于显示器分辨率，那么图像就会被缩小，可能会失去一些细节；如果图像分辨率低于显示器分辨率，那么图像就会被放大，可能会显得模糊或者锯齿状。</p>
+
+<p>至此，图像的采集工作就完成了，采集完成后一般将其保存成某一种格式，常见的图片格式包括JPEG，PNG，GIF，TIFF，SVG，代表不同的压缩方法。</p>
+
+<p>图片分为灰度图和彩色图，灰度图是一种只有亮度信息，没有颜色信息的图像，每个像素的值表示其灰度级别，通常从0（黑色）到255（白色）；彩色图是一种有颜色信息的图像，每个像素的值表示其在某种颜色模式下的颜色分量，例如RGB（红绿蓝）或CMYK（青品红黄黑）。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/color.png" alt="alt" /></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/gray.png" alt="alt" /></p>
+
+<p>在使用图像时，首先需要将其从磁盘中加载到内存，很多工具都能读取图像，例如OpenCV，PIL等，在开始训练之前，还要将其转换为机器学习框架认识的数据格式，可以使用Numpy数组，或者是机器学习框架内置的数据结构。</p>
+
+<p>这里要给大家提个醒，对于彩色图，有三个颜色分量，此时就需要考虑内存布局问题，不同的框架，对于RGB图像的存储方式是不一样的。</p>
+
+<p><strong>通道的顺序</strong>：有些框架是按照RGB的顺序存储的，比如Matlab，PIL，TensorFlow等；有些框架是按照BGR的顺序存储的，比如OpenCV，Caffe，PyTorch等。这会影响到图像的显示和转换，需要注意调整通道的顺序。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/rgbbgr.png" alt="alt" /></p>
+
+<p><strong>通道的排列</strong>：有些框架是按照通道优先[channels, height, width]的方式存储的，比如Caffe，PyTorch等；有些框架是按照通道后[height, width, channels]的方式存储的，比如Matlab，OpenCV，TensorFlow等。这会影响到图像的维度和处理，需要注意调整通道的位置。</p>
+
+<p>[height, width, channels]表示通道最后的布局。即图像中的像素点按高度方向,然后宽度方向,最后颜色通道方向顺序存储。这是一种行优先的布局。</p>
+
+<p>[channels, height, width]表示通道最先的布局。即先存储所有的红色通道像素,然后绿色通道,最后蓝色通道。这是一种通道优先的布局。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/channel.png" alt="alt" /></p>
+
+<p><strong>通道的范围</strong>：有些框架是按照0~255的整数值存储的，比如OpenCV，PIL等；有些框架是按照0~1的浮点数存储的，比如Matlab，TensorFlow等。这会影响到图像的数值和计算，需要注意调整通道的范围。</p>
+
+<p>为了增加模型泛化性能，往往还需要对图像进行增广操作，例如，缩放，旋转，这就会涉及到像素插值，但不同的框架即使是同一种插值方法，实现也不尽相同。例如，pillow和opencv的resize就不一样。所以，当你遇到不同推理方式结果存在些许差别时，不妨往这方面想想。</p>
+
+<p>将图像加载到内存后就可以进行后续任务了，例如，训练一个图像分类，目标检测，图像分割模型。</p>
+
+<p>在表格数据那一节我们提到了对数据进行预处理提取特征，那对于图像需要提取特征吗？有的人可能会说，我在训练或者推理时都是输入的原始图像啊！没提取什么鸟特征啊！</p>
+
+<p>先不回答这个问题，先做个小游戏，如果让你看一幅猫的图像，问你这是啥？你说这是猫，看狗，你说这是狗，此时我问你为什么？你说：猫就是猫，狗就是狗，哪有为什么，其实不然，在你看图识物过程中你大脑在背后执行了很复杂的操作，这其中就包括提取特征的过程，也正是这些特征才让你看猫是猫，看狗是狗。</p>
+
+<p>计算机看图识物也需要图像特征。
+那特征是怎么来的呢？</p>
+
+<p>在深度学习没有出现之前，需要依赖人的经验提取图像特征，然后将提取的特征输入到机器学习模型中进行分类或者目标检测等后续任务。</p>
+
+<p>最简单的图像特征，数字图像处理课上的边缘检测器，能够检测特征线。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/linefeature.png" alt="alt" /></p>
+
+<p>再复杂一点的，如SIFT，Surf，HOG，ORG，角点等，能够检测特征点。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/pointfeature.png" alt="alt" /></p>
+
+<p>有了卷积神经网络后，ReseNet，GoogleNet，Inception等，这些被称为骨干网络的家伙通过卷积层和池化层能够自动提取特征，输出结果我们称之为特征图，它反映了输入图像在某些特征上的响应程度，例如边缘、纹理、形状等。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/backbone.png" alt="alt" /></p>
+
+<p>目前也有一些能够检测特征点的深度学习模型，例如，SuperPoint。</p>
+
+<p>其实，不光是图像分类，目标检测，图像分割，还有很多任务都需要依赖图像特征，例如，相机校准，图像拼接，SLAM等等，所以对于图像处理，是高度依赖图像特征的。</p>
+
+<h2 id="声音">声音</h2>
+
+<p>声音是模拟信号，是一种由空气或其他介质中的压力变化产生的机械波，通过外耳道进入人类的耳朵，到达鼓膜，使鼓膜振动，基底膜上的毛细胞随着基底膜的振动而弯曲，产生电信号，这些电信号就是听觉的神经冲动。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/wave.jpg" alt="alt" /></p>
+
+<p>我们知道计算机中只能存储数字，那计算机是如何存储音频的呢？或者换句话说计算机如何存储模拟信号呢？</p>
+
+<p>计算机存储声音的方法是使用采样和量化的方式将声音信号转化为数字形式。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/wavedigit.png" alt="alt" /></p>
+
+<p>具体来说主要包括以下几个过程:</p>
+
+<ul>
+  <li>
+    <p>采样:先使用ADC(模数转换)对声音信号以一定的频率(采样频率)进行采样,获取波形振幅。</p>
+  </li>
+  <li>
+    <p>量化:将采样得到的连续振幅值量化为离散的数字量,一般使用8bit、16bit等量化比特数。</p>
+  </li>
+  <li>
+    <p>编码:将量化后的样本数字编码压缩为特定格式的音频数据,常见的编码格式有WAV、MP3、WMA等。</p>
+  </li>
+  <li>
+    <p>存储:最终以二进制数字数据的形式存储在计算机存储介质中。</p>
+  </li>
+</ul>
+
+<p>播放时则进行反向解码转换为模拟信号输出。</p>
+
+<p>采样和量化保证了声音模拟信号向数字信号的高精度转换。编码格式的选择则关乎音质和文件大小的平衡。这就是计算机存储和处理音频信号的基本方法。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/Conversion_AD_DA.png" alt="采样和量化" /></p>
+
+<p>同样在原始声音数据的基础上，也可以进一步提取特征。</p>
+
+<p>最简单的就是从原始声音数据入手，例如，反映语音波形本身在时间轴上的振幅变化特徵，比如短时能量、过零率、声音幅度的包络曲线等，这类特征我们称之为时域特征。</p>
+
+<p>像声音这种时域数据还存在频率维度，在频率维度存储了反映语音特性的特征重要参数，在频率维度提取到的特征称之为频域特征。将时域数据转换成频域数据需要借助一个工具：傅里叶变换，通过对语音信号做傅里叶变换,转换到频域,得到的语音频谱信息,反映不同频带能量特征。常用的有滤波组功率、Mel频率倒谱系数(MFCC)、线性预测倒谱(LPCC)等。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/fuliye.png" alt="傅里叶变换" /></p>
+
+<p>其实，图像也可以通过延拓或重复的方式构造出周期图像，这样就可以对图像进行傅里叶变换，转换为离散的频谱，这样就可以对不同频率分量进行单独处理，利用高低通滤波实现图像的平滑和锐化。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/lowhightp.png" alt="alt" /></p>
+
+<p>如上图，左下角为原图像经傅里叶变换后的频谱图，中心的是低频分量，边缘的是高频分量，右下角图像过滤掉高频分量后，图像会变得平滑模糊，这是因为高频分量包含了图像的边缘和细节信息，而低频分量包含了图像的主要部分和平坦区域信息。</p>
+
+<p>Openai在2023年11月份升级了ChatGPT，升级后，不仅可以输入文字，还可以通过语音与其对话， 这背后其实是OpenAI另一个语音识别模型：Whisper。</p>
+
+<p>Whisper模型的输入就是Log-Mel Spectrogram声音特征。</p>
+
+<p>要获得 Log-Mel Spectrogram,需要经过以下数字化处理:</p>
+
+<ul>
+  <li>
+    <p>对模拟语音信号进行采样,获取数字化离散信号(discrete signal)。</p>
+  </li>
+  <li>
+    <p>对数字信号做快速傅立叶变换(FFT),转换为频谱(spectrum)。</p>
+  </li>
+  <li>
+    <p>对频谱应用Mel标度滤波器组,获取Mel频谱(Mel spectrum)。</p>
+  </li>
+  <li>
+    <p>计算Mel频谱的对数,得到Log-Mel频谱(Log-Mel spectrum)。</p>
+  </li>
+  <li>
+    <p>将Log-Mel频谱的每一帧在时间轴上排列,形成Log-Mel Spectrogram。</p>
+  </li>
+</ul>
+
+<p>如果你还不理解Log-Mel Spectrogram没关系，说白了，Log-Mel Spectrogram就是类似于图像的二维数组。横轴是时间维度，纵轴是每一时刻声音特征。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/logmel.png" alt="alt" /></p>
+
+<p>这里说到了语音识别，就再多说几句，你在B站还有油管上看到的字幕功能，使用的就是一种语音识别技术，除了识别，还能翻译，而且，在Whisper中，从源语言到英语的翻译是端到端的，并不是先识别源语言，再将识别的源语言翻译成目标语言。</p>
+
+<h2 id="文本">文本</h2>
+
+<p>文字应该是生活中使用最多最频繁的，人类文明在很早之前就有使用文字的记载，我国的仓颉造字，不同国家也发展了自己的语言系统，汉语更是博大精深，一词多义，一语双关，这虽然让文字量可以控制在有限范围内，但这给计算机却带来了很大麻烦。</p>
+
+<p>但我们先不说一词多义的事，这个会在Transformer中的注意力机制涉及到，我们要先弄明白文字是如何在计算机中存储的？其实在表格数据中已经讲过文本的存储了。就是使用字符编码来将字符转换为数字代码进行存储。常见的字符编码方法有:</p>
+
+<ul>
+  <li>
+    <p>ASCII码:使用英文字母、数字、符号对应固定的数字代码来表示,是最早的字符编码。</p>
+  </li>
+  <li>
+    <p>Unicode码:国际通用的字符编码,将全世界大部分的文字和符号都映射为数值代码。</p>
+  </li>
+  <li>
+    <p>GB2312码:简体中文常用的字符编码方法。</p>
+  </li>
+  <li>
+    <p>各国文字的国家标准码:如支持日文的Shift-JIS码等。</p>
+  </li>
+</ul>
+
+<p>在保存文本时,操作系统会根据指定的字符编码,将文本的文字转换为对应的数字代码序列,以比特流的形式保存在文件或者数据库中。</p>
+
+<p>读取文本时再根据编码映射规则,将存储的数字代码解析还原为相应的文字。</p>
+
+<p>这就是计算机存储文字的基本方法。不同encoding的区别在于支持的文字数量和映射表的大小。利用数字编码来存储文字是计算机处理文本的基础。</p>
+
+<p>根据以上的编码规则，”I love china”这个字符串分别用不同的编码方式表示如下：</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ASCII编码</span><span class="err">：</span><span class="mi">01001001</span> <span class="mi">00100000</span> <span class="mi">01101100</span> <span class="mi">01101111</span> <span class="mi">01110110</span> <span class="mi">01100101</span> <span class="mi">00100000</span> <span class="mi">01100011</span> <span class="mi">01101000</span> <span class="mi">01101001</span> <span class="mi">01101110</span> <span class="mi">01100001</span>
+<span class="n">UTF</span><span class="o">-</span><span class="mi">8</span><span class="n">编码</span><span class="err">：</span><span class="mi">01001001</span> <span class="mi">00100000</span> <span class="mi">01101100</span> <span class="mi">01101111</span> <span class="mi">01110110</span> <span class="mi">01100101</span> <span class="mi">00100000</span> <span class="mi">01100011</span> <span class="mi">01101000</span> <span class="mi">01101001</span> <span class="mi">01101110</span> <span class="mi">01100001</span>
+<span class="n">UTF</span><span class="o">-</span><span class="mi">16</span><span class="n">编码</span><span class="err">：</span><span class="mi">00000000</span> <span class="mi">01001001</span> <span class="mi">00000000</span> <span class="mi">00100000</span> <span class="mi">00000000</span> <span class="mi">01101100</span> <span class="mi">00000000</span> <span class="mi">01101111</span> <span class="mi">00000000</span> <span class="mi">01110110</span> <span class="mi">00000000</span> <span class="mi">01100101</span> <span class="mi">00000000</span> <span class="mi">00100000</span> <span class="mi">00000000</span> <span class="mi">01100011</span> <span class="mi">00000000</span> <span class="mi">01101000</span> <span class="mi">00000000</span> <span class="mi">01101001</span> <span class="mi">00000000</span> <span class="mi">01101110</span> <span class="mi">00000000</span> <span class="mi">01100001</span>
+<span class="n">Unicode编码</span><span class="err">：</span><span class="mi">00000000</span> <span class="mi">01001001</span> <span class="mi">00000000</span> <span class="mi">00100000</span> <span class="mi">00000000</span> <span class="mi">01101100</span> <span class="mi">00000000</span> <span class="mi">01101111</span> <span class="mi">00000000</span> <span class="mi">01110110</span> <span class="mi">00000000</span> <span class="mi">01100101</span> <span class="mi">00000000</span> <span class="mi">00100000</span> <span class="mi">00000000</span> <span class="mi">01100011</span> <span class="mi">00000000</span> <span class="mi">01101000</span> <span class="mi">00000000</span> <span class="mi">01101001</span> <span class="mi">00000000</span> <span class="mi">01101110</span> <span class="mi">00000000</span> <span class="mi">01100001</span>
+</code></pre></div></div>
+
+<p>有人会问了，能将“我爱中国”编码成ASCII编码吗？</p>
+
+<p>答案是不能，ASCII码是一种用一个字节（8位）表示一个英文字符或符号的编码方式。它只能表示128个不同的符号，汉字的数量非常庞大，远远超过了ASCII码能表示的范围。因此，不能将汉字编码成ASCII码，为了让计算机能够处理汉字，人们开发了各种汉字编码方式，例如GB2312，GBK，GB18030，BIG5，Unicode等。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">“</span><span class="n">我爱中国</span><span class="err">”</span><span class="n">的GB2312编码是0xCE</span> <span class="mh">0xD2</span> <span class="mh">0xB0</span> <span class="mh">0xAE</span> <span class="mh">0xD6</span> <span class="mh">0xD0</span> <span class="mh">0xB9</span> <span class="mh">0xFA</span><span class="err">。</span>
+<span class="err">“</span><span class="n">我爱中国</span><span class="err">”</span><span class="n">的GBK编码是0xCE</span> <span class="mh">0xD2</span> <span class="mh">0xB0</span> <span class="mh">0xAE</span> <span class="mh">0xD6</span> <span class="mh">0xD0</span> <span class="mh">0xB9</span> <span class="mh">0xFA</span><span class="err">。</span>
+<span class="err">“</span><span class="n">我爱中国</span><span class="err">”</span><span class="n">的GB18030编码是0xCE</span> <span class="mh">0xD2</span> <span class="mh">0xB0</span> <span class="mh">0xAE</span> <span class="mh">0xD6</span> <span class="mh">0xD0</span> <span class="mh">0xB9</span> <span class="mh">0xFA</span><span class="err">。</span>
+<span class="err">“</span><span class="n">我爱中国</span><span class="err">”</span><span class="n">的BIG5编码是0xA7</span> <span class="mh">0xDA</span> <span class="mh">0xB0</span> <span class="mh">0xDA</span> <span class="mh">0xB3</span> <span class="mh">0x6F</span> <span class="mh">0xA4</span> <span class="mh">0x40</span><span class="err">。</span>
+<span class="err">“</span><span class="n">我爱中国</span><span class="err">”</span><span class="n">的Unicode编码是0x6211</span> <span class="mh">0x7231</span> <span class="mh">0x4E2D</span> <span class="mh">0x56FD</span><span class="err">。</span>
+</code></pre></div></div>
+
+<p>好了，到此我们已经能够将字符编码成数字了，如果要训练一个大模型，直接把文本分割成字符，然后进行编码，最后将这些数字直接扔给模型不就可以了？</p>
+
+<p>字符编码并不合适，字符编码的向量维度很高。</p>
+
+<p>既然说字符编码维度高，那就换个方法，但还是以字符为单位。</p>
+
+<p>通常英文字母表包括26个英文字母（不区分大小写）和空格，共27个字符。因此，我们需要用一个长度为27的二进制向量来表示每个字符。</p>
+
+<p>其次，我们需要将每个字符映射到一个整数值，一种简单的方法是按照字母表的顺序，从0开始编号，即A对应0，B对应1，依次类推，空格对应26。因此，“I Love AI” 中的每个字符对应的整数值如下：</p>
+
+<p>I: 8 L: 11 o: 14 v: 21 e: 4 A: 0 I: 8 空格: 26</p>
+
+<p>最后，我们需要将每个整数值表示为一个二进制向量，其中只有对应的索引位置为1，其余位置为0。例如，0对应的向量为[1, 0, 0, …, 0]，26对应的向量为[0, 0, 0, …, 1]。因此，“I Love AI” 中的每个字符对应的向量如下：</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">I</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">L</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">o</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">v</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">e</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">A</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">I</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">空格</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>如果我们将这些向量拼接起来，就得到了”I Love AI” 的One-hot编码，它是一个长度为27×9=243的二进制向量。</p>
+
+<p>这种方法虽然每个字符的向量长度减少到了27，但以字符为单位，如果文本很大，则整个数据量仍然很大。</p>
+
+<p>所以，我们开始考虑以词为单位，因为词的数量也是有限的，可以构造一个词典，例如，牛津词典。然后对一个句子进行分词，最简单的，按照空格分词，每一个词都是一个向量，词典有多大，向量就有多大，如果这个词出现在词典的第二个位置，那么，这个向量的第二个位置就是1，其他均为0，这就是典型的one-hot编码。假设以词为单位，根据训练文本统计信息构造词典，假设词典中一共有10个词，I，Love，AI分别是词典中的第1，2，4个词。</p>
+
+<p>“I Love AI” 的One-hot编码如下：</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">I</span><span class="p">:</span> <span class="mi">1000000000</span>
+<span class="n">Love</span><span class="p">:</span> <span class="mi">0100000000</span>
+<span class="n">AI</span><span class="p">:</span> <span class="mi">0001000000</span>
+</code></pre></div></div>
+
+<p>除了词，还有子词，因为和词的处理方式差不多，这里就不做过多介绍了。</p>
+
+<p>不知道你发现没，无论是哪种方法，由one-hot编码构成的矩阵都是一个稀疏矩阵，如果词典很大，则无用信息占据了很大一块内存，内存利用率很低。</p>
+
+<p>前面我们将文本划分成了字符，词，字词，这样一个个最小的语义单元我们称之为token，这个过程有一个好听的名字：Tokenlize。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">word粒度</span>
+<span class="sh">"</span><span class="s">I love AI</span><span class="sh">"</span><span class="o">-&gt;</span><span class="n">token</span><span class="p">:</span> <span class="p">[</span><span class="err">“</span><span class="n">I</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="n">love</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="n">AI</span><span class="err">”</span><span class="p">]</span>
+<span class="n">char粒度</span><span class="err">：</span>
+<span class="sh">"</span><span class="s">I love AI</span><span class="sh">"</span><span class="o">-&gt;</span><span class="n">token</span><span class="p">:</span> <span class="p">[</span><span class="err">“</span><span class="n">I</span><span class="err">”</span><span class="p">,</span> <span class="sh">"</span><span class="s"> “, “l”, “o”, “v”, “e”, </span><span class="sh">"</span> <span class="err">“</span><span class="p">,</span> <span class="err">“</span><span class="n">A</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="n">I</span><span class="err">”</span><span class="p">]</span>
+<span class="n">subword粒度</span><span class="err">（</span><span class="n">BPE算法</span><span class="err">）：</span>
+<span class="sh">"</span><span class="s">I love AI</span><span class="sh">"</span><span class="o">-&gt;</span><span class="n">token</span><span class="p">:[</span><span class="err">“</span><span class="n">I</span><span class="err">”</span><span class="p">,</span> <span class="sh">"</span><span class="s"> lo”, “ve”, </span><span class="sh">"</span> <span class="n">AI</span><span class="err">”</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/tokenlize.jpg" alt="alt" /></p>
+
+<p>将token转换成向量的过程则被称为向量化，前面的one-hot编码就是一种向量化方法。</p>
+
+<p>前面的表格数据，图像，语音，都有特征，那文字是否也有特征呢？当然有。</p>
+
+<p>前面的one-hot向量化方法，是硬编码，无法体现语义信息。也就是语意相近的两个词，向量化后，在向量空间中离得很远，两个不相干的词却可能离得很近。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/embedding.jpg" alt="alt" /></p>
+
+<p>其实这里的语意信息就看作是文本的特征。</p>
+
+<p>那如何提取语意信息呢？</p>
+
+<p>词嵌入就是一种方法，词嵌入是一种软编码，因为它是通过训练学习得到的。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/5/word2vec.png" alt="alt" /></p>
+
+<p>Wword2vec就是一种词嵌入方法。其主要思想是通过神经网络模型对大规模语料进行训练，训练完成后得到词向量矩阵。</p>
+
+<p>例如，如果一个词表有4096个单词，每个单词用100维向量表示，如果使用one-hot编码词向量维度为词表大小，也就是4096，可见，词嵌入不仅解决了语音信息问题，还解决了维度问题，word2vec训练完成后就得到一个4096*100大小的矩阵，或者将矩阵构造成查找表，通过Tokenizer后的one-hot编码与词向量矩阵相乘或者根据位置索引查表就能得到词嵌入向量了。</p>
+
+<p>到此，AI中所涉及到的四种数据形式的数字化就全部讲完了，不同的数据形式也发展出了不同的领域，例如，计算机视觉CV和自然语言处理NLP。</p>
+
+<p>不同的数据形式也衍生出了AI的不同分支，例如，处理数字特征的前馈神经网络，处理图像的卷积神经网络，处理文本声音的循环神经网络。</p>
+
+<p>一直以来，NLP都走在CV的前面。不论是深度神经网络超越手工方法，还是预训练大模型开始出现大一统的趋势，这些事情都先发生在NLP领域，并在不久之后被搬运到了CV领域。</p>
+
+<p>例如，CV中的视觉Transformer就是借鉴NLP中的Transformer；CV中的无监督预训练方法最早也是在NLP中开始应用的。</p>
+
+<p>NLP之所以能走在前面，要从下面几点讲起。</p>
+
+<p>自然语言的基础单元是单词，而图像的基础单元是像素；前者具有天然的语义信息，而后者未必能够表达语义。自然语言是人类创造出来，用于存储知识和交流信息的载体，所以必然具有高效和信息密度高的特性；而图像则是人类通过各种传感器捕捉的光学信号，它能够客观地反映真实情况，但相应地就不具有强语义，且信息密度可能很低。</p>
+
+<p>NLP在大语言模型火遍全球后，又漏了一把脸，大模型成功的背后，究其根本原因，除了Transformer模型架构外，还有一点不容小觑，我们都知道互联网上的文本数据多如牛毛，用互联网上的文本数据训练的模型，能很好的应用到你的私有数据上，也就是两者是同分布，人类语言是互通的，要表达的语义是相似的。但互联网上的图像训练的模型不能很好应用到你的私有图像上，两者差距很大。尤其是不同领域的图像，用ImageNet预训练模型微调后很难泛化到医疗图像。</p>]]></content><author><name>人工智能大讲堂</name></author><category term="一起学AI" /><summary type="html"><![CDATA[一起学AI 5-表格，图像，文本，声音的数字化是AI的开端]]></summary></entry><entry><title type="html">一起学AI 3.通过一个例子重新认识AI</title><link href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html" rel="alternate" type="text/html" title="一起学AI 3.通过一个例子重新认识AI" /><published>2023-11-30T00:00:00+00:00</published><updated>2023-11-30T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI</id><content type="html" xml:base="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html"><![CDATA[<p><a href="./2023-11-24-0.序.md">一起学AI 0-序</a></p>
+
+<p><a href="./2023-11-26-1.人工智能的坎.md">一起学AI 1-AI的坎</a></p>
+
+<p><a href="./2023-11-29-2.数学的迷.md">一起学AI 2-数学的迷</a></p>
+
+<h2 id="回顾总结">回顾总结</h2>
+
+<p>前三篇文章主要介绍了写“<strong>一起学AI</strong>”专栏的初衷、<strong>AI的历史和构成</strong>以及<strong>数学的历史和分支</strong>。</p>
+
+<p>旨在帮你形成<strong>完整的知识体系</strong>。</p>
+
+<p>但像这种综述性的文章本就不好写，它需要作者有很“广”的知识储备，以及很“深”的见解才能让文章的内容丰富饱满，且结构性、逻辑性更强。这样在读完之后才会在脑子里形成一张图。</p>
+
+<p>受限于作者的能力，仅通过这三篇文章似乎很难达到预想的效果，若您此刻仍感迷雾重重,不妨忘却所有细节,仅记住下面这两张图就好了。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/aimldp.png" alt="图1 AI构成：下面是数学原理，上面是AI应用" /></p>
+
+<p>上面这张图描述了AI的静态结构，当您充分理解以后，就可以继续分析下面这张动态训练图。</p>
+
+<p>该图清晰描绘了AI三驾马车（模型，优化算法，损失函数）在训练过程中是如何相互作用的，无论是传统机器学习还是深度学习，模型架构可能有所差异，但训练流程基本类似,。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/UdHXtri.png" alt="图2 模型的训练流程" /></p>
+
+<h2 id="一个具体的例子">一个具体的例子</h2>
+
+<p>如果前面的文字和图片仍未解开您所有的疑惑,不妨我们换个思路，从零开始用python代码实现一个模型，使其尽可能涵盖所有关键概念。</p>
+
+<p><strong>首先明确具体需求</strong>——我们希望AI完成什么任务？为便于演示，本文选择一个简单的二分类任务。</p>
+
+<p>除二分类外,常见任务还包括多分类、线性回归。</p>
+
+<p>在计算机视觉领域有图像分类、目标检测、图像分割。</p>
+
+<p>在自然语言处理领域有文本分类、总结、生成等。</p>
+
+<p><strong>第二步准备数据。</strong></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/geogebra-export.png" alt="alt" /></p>
+
+<p>红色的点代表正样本y=1，蓝色的点代表负样本y=0，水平轴$x_{1}$和垂直轴$x_{2}$代表特征。</p>
+
+<p>这种数据我们也称为表格数据，除此之外，还有图像、文本、图数据。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>x1</th>
+      <th>x2</th>
+      <th>y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.59</td>
+      <td>6.98</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4.83</td>
+      <td>6.56</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5.41</td>
+      <td>6.38</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4.71</td>
+      <td>5.88</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>7.03</td>
+      <td>6.56</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>6.63</td>
+      <td>6.28</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>6.43</td>
+      <td>5.6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>6.47</td>
+      <td>5.06</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>无论是机器学习还是深度学习，在开始训练之前通常需对数据进行预处理。</p>
+
+<p>如果是表格数据，则需要将文字特征(是，否)数字化(One-hot Encoding)，处理缺失数据(删除或插值填充)，通过相关性分析删除与分类结果无关的特征(低相关性过滤)，删除重复或高度相关的特征(高相关性过滤，去重复)，并进行归一化(Min-Max Scaling ， Z-Score 等)来加快模型收敛以及消除量纲的影响。</p>
+
+<p>如果是图像,为了提升模型的泛化性能，就需要给模型看更多内容更丰富的数据，这就需要通过旋转,缩放,裁剪,颜色变换等操作扩增数据，同样图像也需要归一化(减均值除以标准差)。</p>
+
+<p>对于一些特殊领域的图像，例如，医疗图像可能还需要窗宽窗位的变换。</p>
+
+<p>如果是文本,则需要 tokenize 或 word embedding(Word2Vec, Glove, BERT 等)。</p>
+
+<p>为简化过程,本文将忽略数据预处理这一步。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">5.59</span><span class="p">,</span><span class="mf">6.98</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.83</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">5.41</span><span class="p">,</span><span class="mf">6.38</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.71</span><span class="p">,</span><span class="mf">5.88</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">7.03</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.63</span><span class="p">,</span><span class="mf">6.28</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.43</span><span class="p">,</span><span class="mf">5.6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.47</span><span class="p">,</span><span class="mf">5.06</span><span class="p">,</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">label</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>第三步,去图1中挑选一个适合任务的模型</strong>。许多模型都可完成此二分类任务,如逻辑回归、SVM、决策树、随机森林、Adaboost等传统机器学习模型；也可以使用深度学习中的ANN(前馈神经网络)模型。</p>
+
+<p>对于模型的选择，通常情况下深度学习模型要比传统机器学习拟合能力更强，但这并不意味着无论什么任务只要选择深度学习就好了，模型复杂度和数据量要成比例，如果初期数据量不多，传统机器学习可能是更好的选择，等到数据积累够了，再迁移到深度学习也不迟，所以，总结一下就是：不求最贵，但求最好。</p>
+
+<p>为简便起见，本文选择最简单的逻辑回归模型。</p>
+
+<p>如前所述,模型的作用是将输入映射到输出。对二分类任务而言,模型只需输出样本属于正类的概率。</p>
+
+<p>有人发现sigmod函数的性质正好满足这个要求。</p>
+
+<p>$$
+f( x) =\frac{1}{1+e^{x}}
+$$</p>
+
+<p>sigmoid 函数的输出界于 0-1 之间,符合概率的性质。当 x 大于 0 时,函数输出也将大于 0.5。根据设定,输出超过阈值0.5 即可判断该样本属于正样本类。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/S-curve.png" alt="alt" /></p>
+
+<p>因为数据有两个特征，所以模型可以写成下面形式：</p>
+
+<p>$$
+f( x_{1} ，x_{2}) =\frac{1}{1+e^{-( w_{1} x_{1} +w_{2} x_{2} +b)}}
+$$</p>
+
+<p>根据sigmod函数的性质，如果$w_{1} x_{1} +w_{2} x_{2} +b\  &gt;0$就可以判定为正样本.</p>
+
+<p>换句话说，分类器的决策边界就是$w_{1} x_{1} +w_{2} x_{2} +b\ \ =0$这条直线，这样的分类器被称为线性分类器，如果数据线性不可分，则也可以使用非线性函数，例如，多项式函数。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/db.png" alt="alt" /></p>
+
+<p>更进一步地，可以将上面公式转换成向量形式。</p>
+
+<p>$$
+f(\vec{x}) =\frac{1}{1+e^{-\vec{w}^{T}\vec{x}}}
+$$</p>
+
+<p>$\vec{x} =[ x_{1} ,x_{2} ,1] ,\vec{w} =[ w_{1} ,w_{2} ,b]$均为列向量。</p>
+
+<p>这样我们就已经进入到线性代数的领域，然后用线性代数中的工具进行计算了。</p>
+
+<p>向量$\vec{w}$就是要求解的参数，所谓机器的智能，在很大程度上源自其通过学习参数拟合函数的能力。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 用theta表示模型的参数W
+</span><span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">zeros</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="c1"># 逻辑回归模型
+</span><span class="k">def</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p><strong>第四步开始训练</strong></p>
+
+<p>根据图2可知，模型的训练过程可以概括为：通过优化算法迭代更新模型参数,以最小化预测结果与真实标签之间的损失函数值。</p>
+
+<p>模型我们已经有了，就是前面的逻辑回归函数，现在就差损失函数和优化算法了。</p>
+
+<p>首先要选择损失函数，对二分类任务,每个样本仅属于正负样本中的一个类别。对于第i个样本，如果是正样本，概率为$f( X_{i})$,如果是负样本，因为sigmod函数输出的是属于正样本的概率，所以概率为$1-f( X_{i})$</p>
+
+<p>因为所有样本都是独立同分布的，所以对于整个训练数据集来讲，整体概率为单个样本的乘积。</p>
+
+<p>$$ 
+L(\vec{w}) =\prod_{i=1}^{i=k} f( X_{i})\prod_{i=k+1}^{i=n}( 1-f( X_{i})) 
+$$</p>
+
+<p>X是所有训练数据组成的矩阵，$X_{i}$表示第i个样本的特征向量。</p>
+
+<p>n为训练样本总数，k为正样本个数。</p>
+
+<p>这实际上就是概率与统计中的似然函数，“似然”就是可能性的意思，通过最大化似然函数来求得参数的值就是<strong>最大似然估计</strong>，也就是求得参数W使得L(W)取得最大值。</p>
+
+<p>$$
+Max_{\vec{w}} L(\vec{w})
+$$</p>
+
+<p>因为标签$y_{i}$要么是0，要么是1，所以上面的似然函数可以进一步写成下面形式。</p>
+
+<p>$$
+L(\vec{w}) =\prod_{i=1}^{i=n} f( X_{i})^{y_{i}}( 1-f( X_{i}))^{1-y_{i}}
+$$</p>
+
+<p>多个指数函数的乘积不方便求解。我们可以对其取自然对数,将乘法转换为加法。</p>
+
+<p>由于目标是求函数最大值,可以将函数乘以-1后转化为求最小值问题。同时,对于n个数据,累加值可能非常大,使用梯度下降时则易导致<strong>梯度爆炸</strong>。为避免这一问题,可将累加式除以样本总数n进行归一化，它也被称为对数损失函数。</p>
+
+<p>$L(\vec{w}) =\frac{1}{n}\sum\limits_{i}^{n} -y_{i} f( X_{i}) -( 1-y_{i}) ln( 1-f( X_{i}))$</p>
+
+<p>如果你了解交叉熵损失函数，那么，上面的公式是不是就很熟悉了？其实，经过证明，逻辑回归中,使用交叉熵损失函数求解参数和使用最大似然估计求解参数,在数学上是等价的。</p>
+
+<p><strong>现在我们的目标就是求得参数W使得L(W)取得最小值。</strong></p>
+
+<p>$$
+Min_{\vec{w}} L(\vec{w})
+$$</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 损失函数    
+</span><span class="k">def</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>  
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">y</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y_pred</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">loss</span>
+</code></pre></div></div>
+
+<p>这时该优化算法出场了，在训练开始时，先随机初始化参数，然后利用梯度下降进行迭代更新。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/ball.png" alt="alt" /></p>
+
+<p>首先需要L(W)对w求偏导数。</p>
+
+<p>$$
+\frac{\partial L(\vec{w})}{\partial \vec{w}} \ =\sum\limits_{i}^{n}( f( X_{i}) -y_{i}) X_{i}
+$$</p>
+
+<p>最后对参数进行更新：</p>
+
+<p>$$
+\vec{w} _{t+1} =\vec{w} _{t} \ -\ learningrate* \frac{\partial L(\vec{w})}{\partial \vec{w}}
+$$</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 梯度下降    
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">num_iterations</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>
+    <span class="n">gradient</span> <span class="o">=</span> <span class="n">X</span><span class="p">.</span><span class="n">T</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">y_pred</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="mi">9</span>
+    <span class="n">theta</span> <span class="o">=</span> <span class="n">theta</span> <span class="o">-</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">gradient</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span> 
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Iteration </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s">: Loss </span><span class="si">{</span><span class="n">loss</span><span class="si">:</span><span class="p">.</span><span class="mi">3</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>训练10000轮后，最终得到参数W=[-3.94707138  3.6713051   0.40745513],最后一个是b。</p>
+
+<p>其中，训练的轮数以及学习率都是超参数，可以通过经验获得，也可以通过AutoML得到，这个后续我们还会详细介绍。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/result.png" alt="alt" /></p>
+
+<p>完整代码：</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="err">​</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">5.59</span><span class="p">,</span><span class="mf">6.98</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.83</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">5.41</span><span class="p">,</span><span class="mf">6.38</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.71</span><span class="p">,</span><span class="mf">5.88</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">7.03</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.63</span><span class="p">,</span><span class="mf">6.28</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.43</span><span class="p">,</span><span class="mf">5.6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.47</span><span class="p">,</span><span class="mf">5.06</span><span class="p">,</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="n">label</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="err">​</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="c1"># 参数初始化
+</span><span class="n">num_iterations</span> <span class="o">=</span> <span class="mi">10000</span>
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">zeros</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="c1"># 逻辑回归模型
+</span><span class="k">def</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="p">))</span>
+<span class="c1"># 损失函数    
+</span><span class="k">def</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>  
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">y</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y_pred</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">loss</span>
+<span class="c1"># 梯度下降    
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">num_iterations</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>
+    <span class="n">gradient</span> <span class="o">=</span> <span class="n">X</span><span class="p">.</span><span class="n">T</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">y_pred</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="mi">9</span>
+    <span class="n">theta</span> <span class="o">=</span> <span class="n">theta</span> <span class="o">-</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">gradient</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span> 
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Iteration </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s">: Loss </span><span class="si">{</span><span class="n">loss</span><span class="si">:</span><span class="p">.</span><span class="mi">3</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="err">​</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>本例中我们只有训练数据集，但为了评估模型的泛化性能,通常需要将数据集划分为训练集、验证集和测试集。训练集用于训练模型,验证集用于调参和选择模型,测试集最终评估模型效果。</p>
+
+<p>在简单问题上,训练数据可完美拟合,但实际情况复杂许多。模型容易过拟合或欠拟合。这需要采取正则化、增强数据、 Ensemble等手段提高模型鲁棒性,同时在验证集上监测并相应调整模型结构与超参,从而在测试集取得更优泛化性能。</p>
+
+<p>对于分类任务，不同的阈值，同一个样本可能会被划分为不同的类别，如何选择合适的阈值呢？可以借助模型的评估指标，例如，通过绘制模型在不同阈值下的PR曲线或者ROC曲线来选择合适的阈值。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/confusionmatrix.png" alt="alt" /></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/prcure.png" alt="alt" /></p>
+
+<h2 id="展望未来">展望未来</h2>
+<p>如果通过前面的文章能够形成完整且清晰的知识体系，那么后面展开的细节精讲就会容易很多，磨刀不误砍柴工。
+对于如何精讲，同样面临两种选择——自底向上或自上而下。</p>
+
+<p>传统教学往往采取自底向上的方法，先建立数学基础，再介绍具体模型与应用。就像建造房屋，先打好地基。</p>
+
+<p>这虽然符合人的直觉，但对AI学习来说，我认为后者会更为实用。我们并不需要完整掌握深奥的数学原理才能进入AI应用的大门。事实上，许多成功的AI从业者都是从实际问题出发，根据遇到的困难与需求来驱动对理论知识的学习。</p>
+
+<p>网上对于调参侠的看法我也不是很赞同，在AI的从业之路上大多数人都得经过调参侠这一过程，也只有弄明白AI是什么之后才能跃迁到下一个等级。</p>
+
+<p>所以,后续的内容我会采取自上而下的方法,从应用入手,需要时再探索原理。这样既可快速建立实践能力,又不失去深入理解的动力。</p>
+
+<p>上面我们从0开始实现了一个二分类模型，实际上，使用机器学习框架仅用2行代码就能完成上述任务。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 创建逻辑回归分类器
+</span><span class="n">log_reg</span> <span class="o">=</span> <span class="nc">LogisticRegression</span><span class="p">()</span>
+<span class="c1"># 拟合训练集数据
+</span><span class="n">log_reg</span><span class="p">.</span><span class="nf">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>   
+</code></pre></div></div>
+
+<p>下一篇文章我会介绍一些常用的AI工具框架，以及如何使用大模型来提升工作效率，正所谓工欲善其事，必先利其器。</p>]]></content><author><name>人工智能大讲堂</name></author><category term="一起学AI" /><summary type="html"><![CDATA[一起学AI 0-序]]></summary></entry><entry><title type="html">一起学AI 2.数学的迷</title><link href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.html" rel="alternate" type="text/html" title="一起学AI 2.数学的迷" /><published>2023-11-29T00:00:00+00:00</published><updated>2023-11-29T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7</id><content type="html" xml:base="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.html"><![CDATA[<p>如果你爱一个人，叫他去学数学吧！
+可以直上天堂.
+如果你恨一个人，叫他去学数学吧！
+可以直下地狱.</p>
+
+<h2 id="小学初中高中大学所学的数学">小学，初中，高中，大学所学的数学</h2>
+
+<p>让我们一同回顾从小到大学过的数学，帮你唤起“美好”的回忆。</p>
+
+<p><strong>小学数学</strong></p>
+
+<p>当我来到低年级的教室旁，我总会听到“1、2、3、4、5”的朗读声，这是老师在教学生认识数字。</p>
+
+<p>数字的全称应该是阿拉伯数字，起源于公元5世纪左右的古印度的数字系统,通过阿拉伯文化的传播,最终成为了全世界共同使用的数字语言。</p>
+
+<p>但阿拉伯数字并不是唯一的数字语言，在同时期或者在其之前还有其它数字系统。</p>
+
+<p>罗马数字：如I表示1,V表示5,X表示10等。</p>
+
+<p>算筹:中国古代的结绳计数。</p>
+
+<p>印度-婆罗米数字:阿拉伯数字的前身，但不包括0。</p>
+
+<p>除此之外，还有玛雅数字，古埃及数字。</p>
+
+<p>如果阿拉伯数字没有统一数字语言，所有数字语言各自为营的话，各国之间的贸易交流很难想象会是什么样子。</p>
+
+<p>而在古老的中国，一位千古帝王同样意识到了这一点，他就是秦始皇，所以才有了车同轨，书同文，统一度量衡。</p>
+
+<p>当我沿着走廊往前走，来到更高年级教室，我会听到“1 1得1、1 2得2”的朗读声，这是老师在教授算数运算。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/shugun.jpg" alt="alt" /></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/suanpan.png" alt="alt" /></p>
+
+<p>这是我(80后)上小学时常用的两个工具，随着计算机的普及这些早已成为历史了吧！</p>
+
+<p>当我来到更高年级的教室，我发现每个学生的桌子上都摆着一个工具盒，里面有三角板，圆规，尺子，这是老师在教授简单的几何形体和图形，帮学生认识点、线、面、体的基本概念。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/chiziyuangui.png" alt="alt" /></p>
+
+<p>而几何学的起源可以追溯到公元前3000多年的古埃及和古巴比伦时期，用于测量土地。</p>
+
+<p>当我来到更高年级时，黑板上画了很多统计图表，这是老师在教授简单的统计与数据表示。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/tongji.jpg" alt="alt" /></p>
+
+<p>统计学的起源可以追溯到17世纪中叶，为了国家调查、人口普查等需求而产生。其主要包括两部分：概率论和统计学。</p>
+
+<p>概率论：以数学方法描述和分析不确定性。</p>
+
+<p>统计学：从样本中推断出总体特征并进行决策。</p>
+
+<p>马斯克和任正非先生都曾说过：AI就是统计学。可见我们从小学就已经接受AI教育了。</p>
+
+<p>我们姑且认为一个成功企业家说什么都是对的，毕竟他们是从战略角度描述问题，但作为搞科学研究的还是要较一下真，后面我们也会给出统计学和AI的一些些许差别。</p>
+
+<p>好了，到此恭喜你已经小学毕业了，你将开启初中生活。</p>
+
+<p><strong>初中数学</strong></p>
+
+<p>在小学时，你已经对数字有了基本的认识，但这远没结束，数学的深奥与庞大就像一个迷一样。</p>
+
+<p>上初中后老师会对数字进一步划分：自然数、整数、分数、小数，以及对应的四则运算。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/classification-of-numbers-diagram-1024x682.png" alt="alt" /></p>
+
+<p>上图中我们按照某种性质将数字划分为自然数，全体数，整数，有理数，并且通过元素的共性建立起交集的关系，这其实已经有了集合和逻辑的概念，集合就是具有某种共同性质的元素组成的整体。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/New%20Project%20-%202021-05-24T162639_008.jpg" alt="alt" /></p>
+
+<p>此时你也已经具有探索世界的未知的认知能力了，这类似于初中代数所涉及的内容，例如一元一次方程和二次方程的求解。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/%E4%B8%80%E5%85%83%E4%B8%80%E6%AC%A1%E6%96%B9%E7%A8%8B.png" alt="alt" /></p>
+
+<p>代数思想早在古埃及和巴比伦时期就有了。</p>
+
+<p>在初中时期学习的是初等代数，其中未知数和系数均为有理数。大学时将继续学习高等代数，高等代数研究的是系数和未知数可以是任意数的方程或方程组。举例来说，在大学的线性代数中，未知数和系数则被表示为向量和矩阵。</p>
+
+<p>同样，在小学时期学的几何学在初中也会进一步扩展，这时会研究这些几何形体的更高级性质，例如，三角形合同、圆的理论知识,学习利用公理证明定理。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/jihe.png" alt="alt" /></p>
+
+<p>在初中我们也将学会概率的计算以及学习更多的统计方法，例如计算平均数和方差以及简单的数据可视化方法。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/ZXXKCOM201504151000457253570.jpg" alt="alt" /></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/data-visualization-best-techniques.jpg" alt="alt" /></p>
+
+<p>好了，到此，义务教育结束了，随着教育的重要性日益凸显，越来越多的人认识到它是改变命运的最佳途径，所以很多人会继续读高中。</p>
+
+<p><strong>高中数学</strong></p>
+
+<p>上高中后，逐步迈向成年，摆脱稚嫩，已经形成独立思考的能力，能够根据环境变化做出决策。</p>
+
+<p>这种能力就类似于高中时所学的函数，函数的本质就是将输入映射成输出。</p>
+
+<p>这个过程的决定权也掌握在我们自己的手中，导数像是飞快掠过的青春,积分则更像是逐步积累的人生。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/derint.png" alt="alt" /></p>
+
+<p>AI的核心是学习一个函数,使其描述输入和输出之间的映射关系,进而完成指定预测任务。这里,函数就是AI三驾马车中的模型。</p>
+
+<p>要优化模型,这就涉及微积分的知识了，首先需要目标函数来评价模型效果的好坏，具体来说,我们构建描述模型误差的目标函数。然后利用其导数指引参数迭代更新的方向——这个思路被称为“梯度下降”。</p>
+
+<p>这就好比下山，只要沿着坡度最陡峭的方向往山下走就好了。而这个方向就是利用函数的导数确定的，这种方法也被称为梯度下降法。</p>
+
+<p>如果函数自变量是标量，我们称之为导数。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/gradient-descent-1.jpg" alt="alt" /></p>
+
+<p>如果自变量是高维度的向量或者矩阵，则称之为偏导数。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/tiduxiajiang-1.png" alt="alt" /></p>
+
+<p>在高中，你将继续学到更高级的几何学内容，其中解析几何主要研究平面曲线与圆的性质,空间几何着重立体图形的计算与理解。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/997bba90e9344ad79f2ebd8578d9a5e4.jpeg" alt="alt" /></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/analytical-geometry-conic-equations-1627709295.png" alt="alt" /></p>
+
+<p>几何与代数看似毫无关联的两大数学分支,但实则内在联系甚深,需要我们换个角度去体会。</p>
+
+<p>在大学的线性代数课程中,几何直观地解释了向量空间和变换的作用,如我之前文章中提到的,从子空间正交投影的几何意义分析方程组的解。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/hEJ42.png" alt="alt" /></p>
+
+<p>同样，有了初中对于概率计算和统计工具的初步认识后，在高中你将学习随机变量和概率分布等概念，你会接触四分数，峰度，偏度等高级的统计量。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/1_JFtF8HlWSEXWy7lzlMlKNw.png" alt="alt" /></p>
+
+<p>最后，你还会在高中学习数列的概念，数列是由一系列按照特定规律排列的数字组成的序列，包括等差数列、等比数列，其中还有大家所熟悉的斐波那契数列。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/Sequences-What-is-1.png" alt="alt" /></p>
+
+<p>但是对于数列的用途，除了在各大公司的笔试题，数学竞赛中经常出现外，我还是没弄明白其实际意义，有可能是一种锻炼人思维模式的方法吧。</p>
+
+<p>此时，你将迎来能改变人生命运的重大时刻：高考，之后你会进入大学生活。</p>
+
+<p>因为高考后，有的人会选择数学专业，数学专业所学的内容和非数学专业有很大区别。</p>
+
+<p>即使是同一个专业，根据专业的不同，不同院校开设的数学课程也不尽相同。</p>
+
+<p>所以，无法叙述详尽。</p>
+
+<p><strong>大学数学</strong></p>
+
+<p>但大一的第一门数学课一定是高等数学，在大学之前学的数学都离不开”理想情况下”的假设。</p>
+
+<ul>
+  <li>
+    <p>几何里的点没有体积,线没有宽度,面没有厚度</p>
+  </li>
+  <li>
+    <p>所有的函数都具有连续性</p>
+  </li>
+  <li>
+    <p>统计数据符合正态分布</p>
+  </li>
+  <li>
+    <p>概率问题中事件都是等可能的，独立同分布的。</p>
+  </li>
+  <li>
+    <p>所有集合都清晰定义</p>
+  </li>
+  <li>
+    <p>方程是单变量，且有精确解。</p>
+  </li>
+  <li>
+    <p>函数只有有限个自变量，且都是凸函数。</p>
+  </li>
+</ul>
+
+<p>。。。</p>
+
+<p>但现实是残酷的，哪有那么多理想的假设。</p>
+
+<p>在高等数学中我们将面临更开放和复杂的环境。</p>
+
+<ul>
+  <li>
+    <p>函数可能不存在导数或不连续</p>
+  </li>
+  <li>
+    <p>数据分布严重偏态难以描述</p>
+  </li>
+  <li>
+    <p>元素难以明确定义或数量趋向无穷</p>
+  </li>
+</ul>
+
+<p>所以在大学的高等数学中将学习极限、微积分、重积分、无穷级数、常微分方程等。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/Should-I-do-Standard-Maths-or-Advanced-Maths_-1.png" alt="alt" /></p>
+
+<p>线性代数和概率与统计也是大多数学生的必修课。</p>
+
+<p>在大学之前的代数课程中，方程往往都有唯一解，且变量的维度也是有限的，但在大学的线性代数中，将会扩展到更高维的空间，且方程的解也会存在多种情况：唯一解，不存在，和无穷多个解。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/04-fig2.png" alt="alt" /></p>
+
+<p>方程组的求解方法也不局限于高斯消元，还会用行列式去判断解的存在性，以及用逆矩阵以及更高级的矩阵分解进行求解。矩阵分解除了可以求解方程，还会用于降维，例如PCA。</p>
+
+<p>另外，也会将线性代数融入更多的实际问题之中，例如，用机器学习中的特征向量，计算机视觉中用矩阵表示图像，Transformer中用矩阵乘法计算注意力，多模态中用于向量点积计算相似度等等。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/xianxingdaishu.png" alt="alt" /></p>
+
+<p>概率论与数理统计的内容也将变得更加深奥，从小样本到大样本复杂数据的统计分析；概率分布也从简单的均匀分布，正太分布扩展到更复杂的分布；同时也会讲解更复杂的分析工具：参数估计、假设检验、回归分析等。</p>
+
+<p>好了，至此你学有所成，可以去谋取一份工作，并将所学应用于实践。</p>
+
+<p>当然，如果你想继续深造考研读博时，则会学习更复杂的数学课程，因为我没有这个经历，所以只罗列在网上的搜索结果供大家参考。</p>
+
+<ul>
+  <li>
+    <p>离散数学:集合论、图论、编码、数论、递归、组合数学等 Discrete 数学知识。计算机专业必修课。</p>
+  </li>
+  <li>
+    <p>抽象代数:群论、环论、字段论、同态映射等抽象algebra系统的研究。部分理工科选修。</p>
+  </li>
+  <li>
+    <p>拓扑学:开集、闭集、度量空间、连通性、紧致性等拓扑性质的研究。大部分为理工科高年级选修课。</p>
+  </li>
+</ul>
+
+<p>好了，到此，我已经帮你罗列了从小学到大学的数学课程。</p>
+
+<p>每个阶段的数学知识，从素质教育的角度看，有两个目的，一是应用所学的知识解决当时的认知水平下的问题，另一个是衔接下一个阶段的数学课程，为下一个阶段的课程做铺垫，打地基。</p>
+
+<p>素质教育不再是逼着学生死记硬背，而是鼓励将其应用到日常生活中。</p>
+
+<p>而从应试教育的角度看，目的只有一个，就是得高分，考好的学校。</p>
+
+<p>我们国家和西方国家在教育方面的差别在于，西方国家真正做到了因材施教，也就是让不热爱数学的学生接受最普通的数学教育，而让喜欢数学的学生接受顶尖的数学教育。</p>
+
+<p>这就是为什么我们学生考分比他们高，却做不出牛逼的东西。</p>
+
+<p>除此之外，数学是否能够对人生有所启发，我就没有能力去评论了。</p>
+
+<p>那么我为什么说数学是个谜？因为它就在你身边而不知。</p>
+
+<h2 id="数学的历史">数学的历史</h2>
+
+<p>让我们穿越时空，回顾古代至现代的数学发展：</p>
+
+<p><strong>古代数学：</strong></p>
+
+<ul>
+  <li>
+    <p>埃及数学（公元前3000年前后）：应用于工程测量的简单加减法计算。</p>
+  </li>
+  <li>
+    <p>美索不达米亚数学（公元前1800年前后）：使用六十进位制，解二次二项式方程。</p>
+  </li>
+  <li>
+    <p>古印度数学（公元前1000年前后）：使用十进位制，提出质数概念，涉猎天文学和代数学术著作。</p>
+  </li>
+  <li>
+    <p>古希腊数学（公元前600年前后）：欧几里得编撰《几何原本》，建立公理化演绎体系基础。</p>
+  </li>
+</ul>
+
+<p><strong>中世纪数学：</strong></p>
+
+<ul>
+  <li>
+    <p>阿拉伯数学（8-15世纪）：阿尔花拉兹密的《代数学全书》，奥马尔·海亚姆的三次方程解法。</p>
+  </li>
+  <li>
+    <p>中世纪欧洲数学（5-15世纪）：出现符号代数，菲波那契的《计算书》。</p>
+  </li>
+</ul>
+
+<p><strong>近代数学（17-19世纪）：</strong></p>
+
+<ul>
+  <li>
+    <p>微积分的发展：牛顿与莱布尼茨独立发明微积分，解决了运动和变化问题。</p>
+  </li>
+  <li>
+    <p>非欧几何学：波恩不等式的发现否定了欧几里得公设，非欧几何学应运而生。</p>
+  </li>
+  <li>
+    <p>实数理论：底勒贝格提出完备性理论，建立实数体系。</p>
+  </li>
+  <li>
+    <p>群论：伽罗瓦理论奠基了抽象代数。</p>
+  </li>
+  <li>
+    <p>概率论：拉普拉斯对概率论作出重要贡献。</p>
+  </li>
+</ul>
+
+<p><strong>现代数学（20世纪至今）：</strong></p>
+
+<ul>
+  <li>
+    <p>集合论：康托尔严格定义集合概念，戈德尔提出不完备定理。</p>
+  </li>
+  <li>
+    <p>拓扑学：豪斯多夫创立点集拓扑学。</p>
+  </li>
+  <li>
+    <p>计算机科学：图灵提出图灵机，关联算法理论与计算复杂度。</p>
+  </li>
+</ul>
+
+<p>也难怪是个谜，看看数学的历史，然后再与你所学的内容做个对比，你就会发现你所学的内容和整个数学领域所包含的内容相比，确实是沧海一粟。</p>
+
+<h2 id="数学的分支">数学的分支</h2>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/2/640.png" alt="alt" /></p>
+
+<p><strong>数学起源于计数</strong></p>
+
+<p>人类计数(count)可以追溯到史前时代，人们在骨头上刻画记号。随着时间的推移，数学发生了几次创新，埃及人首次提出了方程，古希腊人在几何学和数理数学等许多领域取得了重大进展，负数在中国发明，零作为一个数字最早在印度使用。</p>
+
+<p>这个时期我们称之为古代数学(约前3000年-约前300年)，这里给大家一个时间上的参照，古希腊人毕达哥拉斯提出勾股定理时我国正处于春秋战国时期。</p>
+
+<p>然后，在伊斯兰黄金时代，波斯数学家取得了进一步的发展，第一本代数学著作被写成。这个时期也被称为中世纪数学(约500年-1400年)，而此时中国正在跨越唐宋元明等朝代。</p>
+
+<p>然后，在文艺复兴时期，数学与科学一起蓬勃发展。解析几何、微积分的创立。出现了对数、概率论等分支。这个时期我们也称为近代数学(17世纪-19世纪)，而此时的中国正处于没落的大清王朝。</p>
+
+<p>而我们主要关注现代数学(20世纪至今)。</p>
+
+<p><strong>数学的两大分支</strong></p>
+
+<p>现代数学可以大致分为两个领域，左侧的纯数学(Pure Mathematics)和右侧的应用数学(Appiled Mathematics)。</p>
+
+<p>纯数学研究数学本身，而应用数学则是为了解决现实世界的问题。但两者之间并非泾渭分明。很多科学家在其所在的领域科研时发现一些古老的纯数学理论正是他们解决现实世界问题所需要的，即使时间跨度几个世纪，抽象的东西最终变得非常有用。</p>
+
+<p>好了，让我们开始进入正题，纯数学由几个部分组成。</p>
+
+<p><strong>数字系统(Number Systems)</strong></p>
+
+<p>数字的研究从自然数(Natural Numbers)开始，以及你可以用它们做什么，例如算术运算(Arithmetic)，然后研究其他类型的数字，如整数(Integer)（包括负数）、有理数(Rational Numbers)（如分数）、实数(Real Numbers)（包括像π这样的无限小数）以及复数(Complex Numbers)等等。以及一些具有有趣的特性的数字，如素数、π或指数。</p>
+
+<p><strong>结构(Structures)</strong></p>
+
+<p>研究结构的学科是从将数字放入变量形式的方程式开始，代数(Algebra)包含了处理这些方程式的规则。在代数中，你还会找到向量(Vector)和矩阵(Matrices)，它们之间的关系规则被捕捉在线性代数(Linear Algebra)中。</p>
+
+<p>数论(Number Theory)研究数字系统中数字的特性，例如素数的性质。</p>
+
+<p>组合学(Combinatorics)研究特定结构的性质，如树(Tree)、图(Graph)以及由离散块组成的其他事物。</p>
+
+<p>群论(Group Theory)研究相互关联的对象，例如魔方是置换群的一个例子。</p>
+
+<p>序理论(order theory)研究如何按照一定的规则排列对象。自然数就是有序对象的一个例子。</p>
+
+<p><strong>空间(Space)与形状(Shape)</strong></p>
+
+<p>纯数学的另一个部分研究形状(Shape)及其在空间(Space)中的行为。</p>
+
+<p>起源于几何学(Geometry)，其中包括与三角学(trigonometry)密切相关的毕达哥拉斯学派，如果说毕达哥拉斯定理你不知道，那换个称呼勾股定理你一定很熟悉。</p>
+
+<p>还有一些有趣的东西，例如分形几何(Fractal Geometry)，它是一种数学模式，具有尺度不变性，这意味着你可以无限缩放它们，它们看起来总是差不多的。</p>
+
+<p>拓扑学(Topology)研究允许连续变形但不允许撕裂或粘合的空间的不同属性。例如，咖啡杯和甜甜圈在拓扑上是相同的。</p>
+
+<p>测度论(Measure Theory)是一种给空间或集合分配值的方法，将数字和空间联系在一起。</p>
+
+<p>最后，微分几何(Differential Geometry)研究曲面上形状的性质。例如，在曲面上，三角形的角度是不同的。</p>
+
+<p><strong>变化(changes)</strong></p>
+
+<p>接下来我们来到下一个部分，即变化(changes)。</p>
+
+<p>研究变化的学科包括微积分(calculus)，涉及到积分(integrals)和微分(differentials)。微积分研究函数所围成的面积或函数梯度(gradients)的行为。而矢量微积分(vector calculus)则研究同样的内容，但针对矢量进行分析。</p>
+
+<p>在这里，我们还会涉及到一系列其他领域，如动态系统(dynamical systems)，它研究随时间从一个状态演变到另一个状态的系统，例如流体流动(fluid flows)或具有反馈环路的生态系统(ecosystems)和混沌理论(chaos theory)，它研究对初始条件非常敏感的动力系统。</p>
+
+<p>最后，复分析(complex analysis)研究具有复数的函数的性质。</p>
+
+<p><strong>应用数学：百花齐放</strong></p>
+
+<p>我们将从物理学(physics)开始，它在某种程度上使用了左边几乎所有的内容。数学和理论物理学(theoretical physics)之间有着非常密切的关系。</p>
+
+<p>数学也在其他自然科学中得到应用，包括数学化学(mathematical chemistry)和生物数学(biomathematics)，它们研究了从分子建模到进化生物学等各种内容。</p>
+
+<p>数学在工程学(engineering)中也被广泛应用。自从古埃及和巴比伦时代以来，建造事物就需要大量的数学知识。非常复杂的电气系统，例如飞机或电力网络，使用了动力系统中的控制理论(control theory)方法。</p>
+
+<p>数值分析(numerical analysis)是一种数学工具，通常在数学变得过于复杂无法完全解决的情况下使用。因此，我们会使用许多简单的近似方法，并将它们组合在一起，以获得良好的近似答案。例如，如果你把一个圆放在一个正方形内，然后向它投掷飞镖，然后比较圆内和正方形部分的飞镖数量，你可以近似计算出圆周率的值。但在现实世界中，数值分析是在大型计算机上进行的。</p>
+
+<p>博弈论(game theory)研究在给定一组规则和理性玩家的情况下，最佳选择是什么，并且它在经济学(economics)中使用。</p>
+
+<p>概率论(probability)是研究随机事件的学科，例如抛硬币、掷骰子或人类行为。</p>
+
+<p>统计学(statistics)是研究大量随机过程或数据组织和分析的学科。</p>
+
+<p>这显然与数学金融(mathematical finance)相关，您希望对金融系统建模并获得优势，以赢得丰厚的回报。</p>
+
+<p>与回报相关的是优化(optimization)，您试图在众多不同选项或约束条件中计算出最佳选择，通常将其视为寻找函数最高点或最低点。优化问题对我们人类来说是第二天性，我们经常进行这样的计算，试图在某种方式上获得最佳性价比或最大化幸福感。</p>
+
+<p>与纯数学密切相关的另一个领域是计算机科学(computer science)。计算机科学的规则实际上是从纯数学中推导出来的，这是一个在可编程计算机出现之前就被研究出来的例子。</p>
+
+<p>机器学习(machine learning)是创建智能计算机系统的过程，它使用了线性代数、优化、动力系统和概率等数学领域的许多方法。</p>
+
+<p>最后，密码学(cryptography)理论对计算非常重要，它使用了许多纯数学方法，如组合数学和数论。</p>
+
+<h2 id="ai中的数学">AI中的数学</h2>
+
+<p>最后，回到我们的主题。</p>
+
+<p>线性代数：线性代数是研究向量空间、线性变换和矩阵运算的数学学科，在AI中广泛应用于矩阵计算、向量空间模型以及线性回归等方面。</p>
+
+<p>概率与统计：概率与统计是研究随机事件和数据分析的数学分支，它在AI中的应用包括机器学习算法的建模与评估、数据预处理、概率图模型以及决策理论等。</p>
+
+<p>微积分：微积分是研究函数、极限、导数和积分等数学工具，它在AI中的应用涵盖了优化算法、神经网络的训练与优化、梯度下降、函数拟合等领域。</p>
+
+<p>优化算法：优化算法是解决最优化问题的方法，它在AI中的应用包括模型参数优化、神经网络训练、特征选择、超参数调整等方面，用于寻找最佳解或最优策略。</p>
+
+<p>数学是个谜，也是个迷​。</p>]]></content><author><name>人工智能大讲堂</name></author><category term="一起学AI" /><summary type="html"><![CDATA[一起学AI 2.数学的迷]]></summary></entry><entry><title type="html">一起学AI 1.AI的坎</title><link href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html" rel="alternate" type="text/html" title="一起学AI 1.AI的坎" /><published>2023-11-26T00:00:00+00:00</published><updated>2023-11-26T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E</id><content type="html" xml:base="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html"><![CDATA[<p>​18世纪末至19世纪中叶的第一次工业革命,蒸汽机的发明替代了人力,开启了机器代工的时代。</p>
+
+<p>19世纪末至20世纪初的第二次工业革命,电力和内燃机的应用大幅提升了生产效率和自动化水平。</p>
+
+<p>20世纪末至21世纪初的第三次工业革命,计算机和互联网的广泛连接彻底改变了信息的处理和传播方式。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/fourrov.png" alt="alt" /></p>
+
+<p>当下，世界正在进入了以智能技术与系统为主导的第四次工业革命的新时代。</p>
+
+<h2 id="什么是ai">什么是AI？</h2>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/ai-overview.png" alt="alt" /></p>
+
+<p>其实在AI出现以前,人类已经能通过编码让计算机执行特定任务。比如:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span><span class="p">(</span><span class="n">con</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">do</span> <span class="n">something</span>
+<span class="p">}</span>
+<span class="k">else</span> 
+<span class="p">{</span>
+    <span class="k">do</span> <span class="n">something</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>但是,这种硬编码方式难以完成更复杂的工作,比如面部识别年龄。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/dsh_age.png" alt="alt" /></p>
+
+<p>要让计算机获得这种智能,就需要一种使其能学习的方法,也就是人工智能。</p>
+
+<p>起初人类对于智能并没有一个明确的定义，图灵测试是一种方法，或者像Alphago对战李世石那样，与人类智慧对比。</p>
+
+<p>但总体上讲，人工智能可以分为两类，一类只能完成某种特定任务，称为弱人工智能，与之对应的是强人工智能，也被称为通用人工智能。</p>
+
+<p>当下流行的生成式AI被认为是实现通用人工智能的必经之路。</p>
+
+<h2 id="如何实现ai">如何实现AI？</h2>
+
+<p>既然希望计算机能够表现得像人类一样，就要让计算机模拟人类的思维方式。</p>
+
+<p>因此，我们需要了解人类是如何做决策的。</p>
+
+<p>一种是自顶向下的方法（符号推理），模拟人类解决问题的推理方式。它涉及从人类获取知识，并以计算机能理解的方式给它。也被称为符号主义AI，典型的代表是专家系统。</p>
+
+<p>另一种是自底向上的方法（神经网络），模拟人脑的结构，它由大量称为神经元的简单单元组成。智能源自于概念之间在神经网络中的联结。也被称为连接主义AI。</p>
+
+<p>起初，符号推理是一种流行的方法。但这种方法并不适合大规模应用。</p>
+
+<p>随着计算资源，数据增加，神经网络方法(连接主义方法）开始成为主宰。现在我们听到的大部分人工智能的成功都是基于它们的，包括生成式AI。</p>
+
+<p>但两者也不是完全对立的，许多强大的模型都是通过巧妙融合两种方法的成果。例如CNN+SVM，前者提取特征，后者进行分类。</p>
+
+<h2 id="ai的发展历史">AI的发展历史</h2>
+
+<p>尽管科技的进步势不可挡，但人工智能的发展之路并不平坦，让我们回顾一下AI所经历的坎坷。</p>
+
+<p>“创新的技术在一开始总是被人们误解的。”
+                                —艾伦·凯伊</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/history-of-ai.png" alt="alt" /></p>
+
+<p>1950年英国著名数学家，计算机科学家图灵在其论文中提出：“机器是否能够表现出与人类一样的智能？”，为了回答这个问题，他提出了一个实验，即图灵测试。</p>
+
+<p>此时，大洋彼岸的新中国刚成立一年，万事百废待兴。</p>
+
+<p>1956年的达特茅斯会议，被认为是人工智能领域的创始会议，共同探讨并提出了人工智能的研究方向和目标。</p>
+
+<p>同一年，约翰·麦卡锡提出了“人工智能”这个术语。从此，人工智能概念正式诞生。</p>
+
+<p>新事物的出现引来了资本和学术界的关注，1956-1966可谓人工智能的黄金十年。</p>
+
+<p>1957年，受生物神经元启发，弗兰克·罗森布拉特发明感知机，它也被视为神经网络的雏形。</p>
+
+<p>1962年,Arthur Samuel制作出可以下棋的电脑程序。</p>
+
+<p>1965年,Weizenbaum开发出ELIZA对话系统。</p>
+
+<p>1969年马文·明斯基等人指出弗兰克·罗森布拉特发明感知机无法解决异或问题。</p>
+
+<p>AI原本被寄予厚望,但技术的瓶颈使其在商业上并未取得成功，给人留下了不切实际的印象，导致资本和学术界开始对人工智能失去信心，人工智能开始步入第一个漫长的寒冬(1974-1980)。</p>
+
+<p>而此时的中国正在开展无产阶级文化大革命运动。</p>
+
+<p>1980年出现的专家系统仿佛又让人们看到了希望，它是一种模拟人类专家进行推理和解决问题的人工智能程序。其目的是将专家的领域知识和经验编码成系统,从而取代人工解决特定领域的问题。</p>
+
+<p>但专家系统仍然无法兑现被高度夸大的诺言,未能推广到更多领域，导致资本开始流向计算机，互联网等新兴技术，AI进入第二次寒冬(1987-1993)。</p>
+
+<p>而此时的中国正在进行改革开放，大力发展经济。</p>
+
+<p>1997年,二番战，IBM的深蓝超级电脑击败国际象棋冠军加里-卡斯帕罗夫。这标志着游戏人工智能系统取得重大进展。</p>
+
+<p>1998年,Yann LeCun团队提出的卷积神经网络LeNet,为后来的深度学习奠定基础。但由于数据和算力的因素，当时人工智能仍处于相对冷清的时期。</p>
+
+<p>2012年,AlexNet在视觉识别竞赛ImageNet中获得历史性的胜利,深度学习开始流行。</p>
+
+<p>随着互联网的发展，数据的获取变得容易，在摩尔定律的推动下，算力不断增长，AI又重新回到人们的视野。</p>
+
+<p>2016年,AlphaGo击败李世石,标志着深度学习在复杂游戏中的应用取得突破。这些事件将人工智能推向广泛关注的中心舞台。</p>
+
+<p>2022年，OpenAI发布ChatGPT，生成式AI席卷全球。</p>
+
+<p><strong>注意：上述对于中国事件的罗列，只为在时间上的参照</strong></p>
+
+<h2 id="人工智能技术体系中的层次结构">​人工智能技术体系中的层次结构</h2>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/aimldp.png" alt="alt" /></p>
+
+<p>AI的目标是让机器具有人类一样的智慧，传统机器学习算法就是实现方式之一，其主要用于识别数据中的潜在模式。</p>
+
+<p>前面列出了AI发展历程中的大事记，下面让我们看看ML的发展史。</p>
+
+<p>1763, 1812：贝叶斯定理。</p>
+
+<p>1805：最小二乘法。</p>
+
+<p>1913：马尔科夫链。</p>
+
+<p>1967：最近邻算法。</p>
+
+<p>1970：反向传播算法。</p>
+
+<p>深度学习作为机器学习的一个分支，其兴起主要源于AlexNet在视觉识别竞赛ImageNet中获得历史性的胜利。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/quanjiafu.png" alt="alt" /></p>
+
+<p>无论是传统机器学习还是深度学习,可以简化为三大要件:模型、优化算法和损失函数。</p>
+
+<p>模型定义了输入和输出之间的映射函数。</p>
+
+<p>损失函数用来量化模型效果的好坏。</p>
+
+<p>优化算法则根据损失函数的量化结果调整函数的参数,使模型效果最优。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/UdHXtri.png" alt="alt" /></p>
+
+<p>除了上面三大件外，数据也是重要组成部分。</p>
+
+<p>传统机器学习和深度学习能够处理的数据形式稍有不同，传统机器学习善于处理数值特征，例如，使用线性回归预测房价中输入房间数，面积，是否临街等特征。</p>
+
+<p>[3,80,1]</p>
+
+<p>如果要用传统机器学习完成图像分类任务，则需要先手工对图片提取特征（SIFT，SURF，ORB，角点），然后再将特征输入到分类器中，例如SVM。</p>
+
+<p>处理数据形式不同本质上是因为两者的模型架构不同，传统机器学习模型没有自动提取特征的能力。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/machinemodels.png" alt="alt" /></p>
+
+<p>深度学习则可以自动提取特征，CNN模型的架构使其非常适合处理图像这种需要考虑局部特征的数据形式，RNN则可以处理文本这种时序数据，深度学习中的ANN可以直接处理房价预测任务中数值特征。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/ANNCNNRNN.png" alt="alt" /></p>
+
+<p>CNN中提取特征的部分通常称为骨干网络，最后根据特征来完成不同的任务。</p>
+
+<p>例如，如果是图像分类任务，也就是图片入，类别出，则在骨干网上后面加上FC和Softmax.</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/59954intro%20to%20CNN.jpg" alt="alt" /></p>
+
+<p>如果是目标检测，也就是图片入，检测框类别和位置出，则在骨干网络后加上分类和回归，目标检测模型有两个派别，一种是单阶段模型，以YOLO为典型代表，另一种是二阶段模型，以RCNN为代表​。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/1_jYDMaYeH-TrcoofDqCdxug.png" alt="alt" /></p>
+
+<p>如果是图像分割，也就是图片入，图片出，则是一个FCN全卷积网络。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/Image-segmentation-architectures.png" alt="alt" /></p>
+
+<p>人类能说会看，机器也需要具备同样的能力，也正是前面讲的CNN和RNN奠定了深度学习在计算机视觉和自然语言处理这两个领域的成功应用基础。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/branches.png" alt="alt" /></p>
+
+<h2 id="ai的数学原理">AI的数学原理</h2>
+
+<p>上层建筑离不开坚固的地基，任何一门技术也要有理论基础，AI也是如此。</p>
+
+<p>在机器学习中应用非常广泛的贝叶斯定理，最小二乘法，马尔科夫链，在AI出现很早以前就有了，它们源于数学和统计学领域,作为一般数理工具。在其他领域均有应用,并非专为AI而生。最小二乘法用于拟合模型参数,贝叶斯用于推断概率和更新信念。</p>
+
+<p>这也正好契合了机器学习的数学基础和思想，AI的数学原理主要包括线性代数，概率与统计，微积分，数值优化。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/math.jpg" alt="alt" /></p>
+
+<p>数值化通过将数值、图像、文本数据统一表示成线性代数中的向量和矩阵,使其可以利用矩阵运算等线性代数工具进行处理。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/Screen-Shot-2017-11-07-at-12.32.19-PM.png" alt="alt" /></p>
+
+<p>概率论和统计学为AI系统建模不确定知识和噪声数据提供了工具,最大化似然估计、最小化损失函数是求解参数的主要优化方法。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/mlenormal.png" alt="alt" /></p>
+
+<p>而微积分中导数和梯度概念,是构建和训练神经网络时调节权重的关键,反向传播机制依赖梯度下降实现参数优化。
+<img src="/jekyll-theme-yat/assets/images/new%20book/1/1_XJ7ioX3mFycK5FwsLqVJ8w.png" alt="alt" /></p>
+
+<p>在AI的发展过程中，有两个东西曾被视为最有可能实现人工智能，但最终却以失败告终。</p>
+
+<p><strong>专家系统</strong></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/ai-symbolic.png" alt="alt" /></p>
+
+<p>专家系统被称为符号主义AI的代表。</p>
+
+<p>符号主义AI的核心是知识表示，将知识表示成计算机能理解的形式，什么是知识？我们要将数据，信息与知识的概念区分开，例如，我们可以通过学习书本成为专家，但书本上的只是数据。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/DIKW_Pyramid.png" alt="alt" /></p>
+
+<p>但从专家那里提取知识、将其表示在计算机中，并保持知识库的准确性，是一项非常复杂的任务，在许多情况下成本过高，难以实际应用。</p>
+
+<p>其衰落直接导致了AI的第二次寒冬。</p>
+
+<p><strong>感知机</strong></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/Rosenblatt-wikipedia.jpg" alt="alt" /></p>
+
+<p>1957年，弗兰克·罗森布拉特发明感知机被视为神经网络的雏形，而神经网络则被视为连接主义的代表。</p>
+
+<p>$y(x) =f\left( W^{T} x\right)$</p>
+
+<p>f是阶跃激活函数。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/acti.png" alt="alt" /></p>
+
+<p>之后马文·明斯基等人指出弗兰克·罗森布拉特发明感知机无法解决异或问题。从今天的视角看，其本质是一个线性分类器，不能对非线性数据进行分类。</p>
+
+<p>这一发现暴露了感知机和早期连接主义人工智能的局限性。但这并不意味着人工智能本身存在障碍，它也促进了新的神经网络算法的产生,为后来兴起的深度学习埋下了伏笔。</p>
+
+<p>现在的前馈神经网络与罗森布拉的感知机相比，只是使用了非线性激活函数以及更深更宽的网络结构，如果罗森布拉特当初能继续尝试，他都有可能创造历史，因为根据万能逼近定理，即使单隐藏层的前馈神经网络也可以逼近任何连续函数。</p>
+
+<p>通过AI的发展历程可见，任何一种新兴技术的发展都不是一蹴而就的。AI的发展并没有因为寒冬而戛然而止，实时证明人工智能是大势所趋。</p>
+
+<p>被视为第四次工业革命核心的人工智能，必将是时代发展的必然产物。</p>]]></content><author><name>人工智能大讲堂</name></author><category term="一起学AI" /><summary type="html"><![CDATA[​18世纪末至19世纪中叶的第一次工业革命,蒸汽机的发明替代了人力,开启了机器代工的时代。]]></summary></entry><entry><title type="html">一起学AI 0-序</title><link href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F.html" rel="alternate" type="text/html" title="一起学AI 0-序" /><published>2023-11-24T00:00:00+00:00</published><updated>2023-11-24T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F</id><content type="html" xml:base="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F.html"><![CDATA[<p>我是从2019年开始接触人工智能，那一年国内已经开始掀起AI浪潮。</p>
+
+<p>我是从2021年开始写微信公众号，写公众号地目的是想有个副业。但当时一来对AI不是很了解，二来对写作也不擅长，所以一开始也是硬着头皮去写，不知道写什么。</p>
+
+<p>公众号的名字也是几经更改。改着改着主题也就明确下来了，就是现在和大家经常说的：<strong>专注人工智能数学原理与应用</strong>。</p>
+
+<p>说着说着也就当真了，听着听着也就信了，不就这样嘛！</p>
+
+<p>但这个主题很大啊！和Web全栈开发不一样，AI是一个涉及多学科的应用。</p>
+
+<p>从后台的文章阅读统计数据来看，有的人只关注数学原理，有的人则只关注应用，有的人只关注传统机器学习算法，而有的人只关注深度学习。</p>
+
+<p>正是因为主题大，所以很难覆盖全部。往往是用到哪就学到哪，学会了就写出来发表了。</p>
+
+<p>但这对于读者来说是不友好的，尤其是对于初学者，东一块西一块的零砖瓦碎，没办法帮助他形成完整的知识体系。</p>
+
+<p><strong>完整的知识体系很重要</strong>。</p>
+
+<p>请大家思考一个问题，如果让你管理一个国家，如何在 14 亿人中，快速找到某一个人？</p>
+
+<p>你可能会这样做：</p>
+
+<p>把国家分成 34 的省和行政区，每一个行政区后面又分成若干个县市，每一个市又划分若干个区，每个区有划分小区，村庄，每个村庄又有若干个家庭，然后找到你所在的那个家庭，最后定位到你。</p>
+
+<p>试问，如果没有这个索引结构，会怎么样？</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/0/1.png" alt="alt" /></p>
+
+<p>快递也是一样，我之前的写作方式，就像是把快递随便一堆，然后让读者自己去找。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/0/2.jpg" alt="alt" />
+正确的方式应该像下面这样​：</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/0/3.png" alt="alt" /></p>
+
+<p><strong>那么如何建立知识体系呢？</strong></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/0/4.png" alt="alt" /></p>
+
+<p>书的目录其实就是一种方法，思维脑图也是一种方法，但这两种方法只包含<strong>符合逻辑的结构信息</strong>，为了构建完整的知识体系，还要有<strong>详细易懂的细节内容</strong>。</p>
+
+<p>而我接下来要写的“一起学AI”系列就是粗中有细，两者兼具。</p>
+
+<p>这个系列不会一上来就讲具体模型，而是先介绍AI的历史和组成，迅速的开疆拓土，让你形成一个立体结构框架，当你知道版图的整体样貌后，随便拿一块拼图你都知道该放在哪里。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/0/5.png" alt="alt" /></p>
+
+<p>接下来就要像蚂蚁蚕食一样去啃细节，将数学原理，机器学习，深度学习按序展开精讲，内容也不是简单的资源整合，如果这样，那就直接推荐看邱锡鹏，周志华老师的书就好了，如果还不行，就再加点吴恩达，李宏毅，李沐大神的视频看看。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/0/6.png" alt="alt" />
+<img src="/jekyll-theme-yat/assets/images/new%20book/0/7.png" alt="alt" /></p>
+
+<p>我是想用一种最容易理解的方式展现给大家，这个系列的草稿已经达到20万字了，相当一部分是平时的积累，例如，当看到一篇文章，令我恍然大悟，我就会抄录过来，加些自己的理解，看到一些令我豁然开朗的图片也顺便截取过来。</p>
+
+<p>到此，我已经讲明我写这个系列的目的，以及这个系列包含的内容。</p>
+
+<p>学习也是讲方法的，互动是一种好的学习方法，但由于我的公众号没有留言功能，所以我特意搭建了自己的博客网站，文章会同步发布到博客上，每篇文章后面都有留言区，只要登录Github账号就可以在博客上留言。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/0/8.png" alt="alt" /></p>
+
+<p>大家在读书的时候，都会看别人推荐的序。</p>
+
+<p>我的偶像黄家驹在1991年香港红磡体育馆生命接触演唱会上说过这么一句话。</p>
+
+<p><strong>“以往别人的演唱会都有很多嘉宾，但我们beyond没有什么大面子，请不来嘉宾，今天全场在座的各位就是最大的嘉宾”</strong>。
+<img src="/jekyll-theme-yat/assets/images/new%20book/0/9.jpg" alt="alt" /></p>
+
+<p>同样，我的读者就是我最尊贵的嘉宾，用你们的热情去谱写人生最出彩的序吧！</p>]]></content><author><name>人工智能大讲堂</name></author><category term="一起学AI" /><summary type="html"><![CDATA[一起学AI 0-序]]></summary></entry></feed>

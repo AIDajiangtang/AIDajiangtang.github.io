@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | 人工智能大讲堂</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Home">
+<meta name="author" content="人工智能大讲堂">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<link rel="canonical" href="/jekyll-theme-yat/">
+<meta property="og:url" content="/jekyll-theme-yat/">
+<meta property="og:site_name" content="人工智能大讲堂">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Home">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"人工智能大讲堂"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Home","name":"人工智能大讲堂","url":"/jekyll-theme-yat/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/assets/images/gongzhonghao.png">
+  <link rel="canonical" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="/jekyll-theme-yat/feed.xml" title="人工智能大讲堂">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="人工智能大讲堂" src="/assets/images/gongzhonghao.png" onerror="this.style.display='none'">
+  人工智能大讲堂
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/categories.html">CATEGORIES</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a><a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(/jekyll-theme-yat/assets/images/home.jpeg)"></div>
+        <img class="img-placeholder" src="/jekyll-theme-yat/assets/images/home.jpeg">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner"><div class="page-banner-default">
+            <h1 class="page-banner-heading">
+              专注人工智能数学原理与应用
+            </h1>
+            <h2 class="page-banner-subheading">
+              线性代数 概率与统计 微积分 机器学习 深度学习
+            </h2>
+          </div></div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="articles">
+  
+
+  
+
+
+  
+
+
+
+
+<div class="pagination">
+  <!-- Post list links -->
+  <ul class="post-list z-image-style">
+    <!-- Top list item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item top-post">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F.html">
+      一起学AI 0-序<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Nov 24, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(https://bit.ly/3xTmdUP); height: 160px"></div>
+    </a><a class="post-text" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F.html">
+      <p>我是从2019年开始接触人工智能，那一年国内已经开始掀起AI浪潮。
+
+我是从2021年开始写微信公众号，写公众号地目的是想有个副业。但当时一来对AI不是很了解，二来对写作也不擅长，所以一开始也是硬着头皮去写，不知道写什么。
+
+公众号的名字也是几经更改。改着改着主题也就明确下来了，就是现在和大家经常说的：专注人工智能数学原理与应用。
+
+说着说着也就当真了，听着听着也就信了，不就这样嘛！
+
+但这个主题很大啊！和Web全栈开发不一样，AI是一个涉及多学科的应用。
+
+从后台的文章阅读统计数据来看，有的人只关注数学原理，有的人则只关注应用，有的人只关注传统机器学习算法，而有的人只关注深度学习。
+
+正是因为主题大，所以很难覆盖全部。往往是用到哪就学到哪，学会了就写出来发表了。
+
+但这对于读者来说是... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item top-post">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html">
+      一起学AI 1.AI的坎<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Nov 26, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(https://bit.ly/3xTmdUP); height: 160px"></div>
+    </a><a class="post-text" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html">
+      <p>​18世纪末至19世纪中叶的第一次工业革命,蒸汽机的发明替代了人力,开启了机器代工的时代。
+
+19世纪末至20世纪初的第二次工业革命,电力和内燃机的应用大幅提升了生产效率和自动化水平。
+
+20世纪末至21世纪初的第三次工业革命,计算机和互联网的广泛连接彻底改变了信息的处理和传播方式。
+
+
+
+当下，世界正在进入了以智能技术与系统为主导的第四次工业革命的新时代。
+
+什么是AI？
+
+
+
+其实在AI出现以前,人类已经能通过编码让计算机执行特定任务。比如:
+
+if(con)
+{
+    do something
+}
+else 
+{
+    do something
+}
+
+
+但是,这种硬编码方式难以完成更复杂的工作,比如面部识别年龄。
+
+
+
+要让计算机获得这种智能,就需要一种使其能学习的方法,也就... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item top-post">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.html">
+      一起学AI 2.数学的迷<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Nov 29, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(https://bit.ly/3xTmdUP); height: 160px"></div>
+    </a><a class="post-text" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.html">
+      <p>如果你爱一个人，叫他去学数学吧！
+可以直上天堂.
+如果你恨一个人，叫他去学数学吧！
+可以直下地狱.
+
+小学，初中，高中，大学所学的数学
+
+让我们一同回顾从小到大学过的数学，帮你唤起“美好”的回忆。
+
+小学数学
+
+当我来到低年级的教室旁，我总会听到“1、2、3、4、5”的朗读声，这是老师在教学生认识数字。
+
+数字的全称应该是阿拉伯数字，起源于公元5世纪左右的古印度的数字系统,通过阿拉伯文化的传播,最终成为了全世界共同使用的数字语言。
+
+但阿拉伯数字并不是唯一的数字语言，在同时期或者在其之前还有其它数字系统。
+
+罗马数字：如I表示1,V表示5,X表示10等。
+
+算筹:中国古代的结绳计数。
+
+印度-婆罗米数字:阿拉伯数字的前身，但不包括0。
+
+除此之外，还有玛雅数字，古埃及数字。
+
+如果阿拉... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item top-post">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html">
+      一起学AI 3.通过一个例子重新认识AI<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Nov 30, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(https://bit.ly/3xTmdUP); height: 160px"></div>
+    </a><a class="post-text" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html">
+      <p>一起学AI 0-序
+
+一起学AI 1-AI的坎
+
+一起学AI 2-数学的迷
+
+回顾总结
+
+前三篇文章主要介绍了写“一起学AI”专栏的初衷、AI的历史和构成以及数学的历史和分支。
+
+旨在帮你形成完整的知识体系。
+
+但像这种综述性的文章本就不好写，它需要作者有很“广”的知识储备，以及很“深”的见解才能让文章的内容丰富饱满，且结构性、逻辑性更强。这样在读完之后才会在脑子里形成一张图。
+
+受限于作者的能力，仅通过这三篇文章似乎很难达到预想的效果，若您此刻仍感迷雾重重,不妨忘却所有细节,仅记住下面这两张图就好了。
+
+
+
+上面这张图描述了AI的静态结构，当您充分理解以后，就可以继续分析下面这张动态训练图。
+
+该图清晰描绘了AI三驾马车（模型，优化算法，损失函数）在训练过程中是如何相互作用的，无论是... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item top-post">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html">
+      一起学AI 4-提升AI开发效率的抽象思维<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Dec 07, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(https://bit.ly/3xTmdUP); height: 160px"></div>
+    </a><a class="post-text" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html">
+      <p>在正式开始之前，有必要先了解一下“抽象”的概念。
+
+抽象，简单来说，就是把一些具体的、复杂的、细节的东西，用一些简单的、通用的、本质的东西来表示。抽象的目的，就是为了减少复杂度，提高效率，增强表达力，方便理解和沟通。
+
+我们身边到处都是抽象的应用，无论是艺术、文学、商业，还是数据、编程、AI，都离不开抽象思维的应用。
+
+艺术上的抽象派不描述复杂的自然世界，而是通过简单的形状、颜色、线条等元素来表达艺术家的主观感受或思想。
+
+
+
+我国古代诗人通过寥寥数语就能描绘出一个时代的风貌。
+
+
+
+无需详尽了解员工和产品细节,仅通过公司的战略就能掌握其业务本质。
+
+
+
+从原始数据中提取知识,再由知识做出决策,这一过程也是一种抽象。
+
+
+
+回归AI这一主题。教会机器从数据中学习经验并做出决策，是AI最... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item top-post">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC-%E6%96%87%E6%9C%AC-%E5%9B%BE%E5%83%8F-%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF.html">
+      一起学AI 5-表格，图像，文本，声音的数字化是AI的开端<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Dec 07, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 8 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC-%E6%96%87%E6%9C%AC-%E5%9B%BE%E5%83%8F-%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(https://bit.ly/3xTmdUP); height: 160px"></div>
+    </a><a class="post-text" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC-%E6%96%87%E6%9C%AC-%E5%9B%BE%E5%83%8F-%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF.html">
+      <p>​我呆看窗外，熙攘的街景映入眼帘，街边的叫卖回荡耳边，细数过往的车辆，脑子却反复模拟明天相亲的场景，心理一直就是否应约做斗争，对方是一位身材高挑的妙龄少女，突然手机屏亮，是媒人发来催促的信息，最终，我决定抛硬币来决定命运。
+
+佛语有云，看山是山，看水是水，我看这段话是一段苦情小伙的内心告白，而在别人眼里，它却是承载丰富信息数据的生成过程。
+
+这段文字包含的数据形式有表格(妙龄，熙攘)，图像(街景)，声音(叫卖)，文本(信息)，产生这些数据的方式包括测量(数车辆)，传感器(眼睛看街景，耳朵听叫卖)，实验(抛硬币)，模拟(模拟相亲场景)。
+
+现实中的数据也大抵如此。
+
+好了，暂时回到AI的主题，人类靠眼睛感受世界，靠语言表达情感，靠倾听获取诉求，靠数字做出决策，人工智能的目的是要让计算机充... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+<!-- Normal list item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/2024ainews/2024/05/29/No,-Today-s-AI-Isn-t-Sentient.-Here-s-How-We-Know.html">
+      No, Today’s AI Isn’t Sentient. Here’s How We Know<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> May 29, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 8 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/jekyll-theme-yat/2024ainews/2024/05/29/No,-Today-s-AI-Isn-t-Sentient.-Here-s-How-We-Know.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/jekyll-theme-yat/2024ainews/2024/05/29/No,-Today-s-AI-Isn-t-Sentient.-Here-s-How-We-Know.html">
+      <p>Artificial general intelligence (AGI) is the term used to describe an artificial agent that is at least as intelligent as a human in all the many ways a human displays (or can display) intelligence. It’s what we used to call artificial intelligence, until we started creating programs and devices that were undeniably “intelligent,” but in limited... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+</ul>
+
+  <!-- Pagination links -->
+</div>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="/jekyll-theme-yat/index.html">
+        All<span>7</span>
+      </a>
+    </li>
+
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-2024AINews">
+          2024AINews <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-%E4%B8%80%E8%B5%B7%E5%AD%A6AI">
+          一起学AI <span>6</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2017-2024 人工智能大讲堂</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/jekyll-theme-yat/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

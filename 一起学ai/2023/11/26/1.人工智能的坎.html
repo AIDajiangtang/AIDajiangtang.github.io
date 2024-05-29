@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>一起学AI 1.AI的坎 | 人工智能大讲堂</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="一起学AI 1.AI的坎">
+<meta name="author" content="人工智能大讲堂">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="一起学AI 1.AI的坎">
+<meta property="og:description" content="一起学AI 1.AI的坎">
+<link rel="canonical" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html">
+<meta property="og:url" content="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html">
+<meta property="og:site_name" content="人工智能大讲堂">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-11-26T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="一起学AI 1.AI的坎">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"人工智能大讲堂"},"dateModified":"2023-11-26T00:00:00+00:00","datePublished":"2023-11-26T00:00:00+00:00","description":"一起学AI 1.AI的坎","headline":"一起学AI 1.AI的坎","mainEntityOfPage":{"@type":"WebPage","@id":"/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html"},"url":"/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/26/1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/assets/images/gongzhonghao.png">
+  <link rel="canonical" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="/jekyll-theme-yat/feed.xml" title="人工智能大讲堂">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="人工智能大讲堂" src="/assets/images/gongzhonghao.png" onerror="this.style.display='none'">
+  人工智能大讲堂
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/categories.html">CATEGORIES</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a><a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner {
+      background: #000;
+    }
+  </style>
+<style>html .page-banner {
+      height:  36.8vh;
+      min-height: 38vh;
+    }
+    html[data-scroll-status="top"] .page-banner {
+      height: 100vh;
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.618;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.443724;
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(1) {
+      font-size: 4.25em; font-weight: bold; text-decoration: underline
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(2) {
+      color: gold
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<video autoplay="" poster="https://bit.ly/3xTmdUP" playsinline>
+          <source src="https://vjs.zencdn.net/v/oceans.mp4">
+        </source></video>
+        <script>
+          (function() {
+            var video = document.querySelector('.page-banner .page-banner-img > video');
+            var videoPlay = function() {
+              video.play().catch (function() {
+                  video.muted = true;
+                  video.play();
+                });
+            }
+
+            video.onloadstart = function() {
+              video.currentTime = 8.5;
+              video.volume = 0.1;
+              video.muted = (video.volume == 0);
+              videoPlay();
+            }
+
+            video.onended = function() {
+              video.currentTime = 8.5;
+              video.volume = 0;video.play();}
+          })();
+        </script>
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">一起学AI 1.AI的坎</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2023-11-26T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Nov 26, 2023
+    </time>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>​18世纪末至19世纪中叶的第一次工业革命,蒸汽机的发明替代了人力,开启了机器代工的时代。</p>
+
+<p>19世纪末至20世纪初的第二次工业革命,电力和内燃机的应用大幅提升了生产效率和自动化水平。</p>
+
+<p>20世纪末至21世纪初的第三次工业革命,计算机和互联网的广泛连接彻底改变了信息的处理和传播方式。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/fourrov.png" alt="alt"></p>
+
+<p>当下，世界正在进入了以智能技术与系统为主导的第四次工业革命的新时代。</p>
+
+<h2 id="什么是ai">什么是AI？</h2>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/ai-overview.png" alt="alt"></p>
+
+<p>其实在AI出现以前,人类已经能通过编码让计算机执行特定任务。比如:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span><span class="p">(</span><span class="n">con</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">do</span> <span class="n">something</span>
+<span class="p">}</span>
+<span class="k">else</span> 
+<span class="p">{</span>
+    <span class="k">do</span> <span class="n">something</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>但是,这种硬编码方式难以完成更复杂的工作,比如面部识别年龄。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/dsh_age.png" alt="alt"></p>
+
+<p>要让计算机获得这种智能,就需要一种使其能学习的方法,也就是人工智能。</p>
+
+<p>起初人类对于智能并没有一个明确的定义，图灵测试是一种方法，或者像Alphago对战李世石那样，与人类智慧对比。</p>
+
+<p>但总体上讲，人工智能可以分为两类，一类只能完成某种特定任务，称为弱人工智能，与之对应的是强人工智能，也被称为通用人工智能。</p>
+
+<p>当下流行的生成式AI被认为是实现通用人工智能的必经之路。</p>
+
+<h2 id="如何实现ai">如何实现AI？</h2>
+
+<p>既然希望计算机能够表现得像人类一样，就要让计算机模拟人类的思维方式。</p>
+
+<p>因此，我们需要了解人类是如何做决策的。</p>
+
+<p>一种是自顶向下的方法（符号推理），模拟人类解决问题的推理方式。它涉及从人类获取知识，并以计算机能理解的方式给它。也被称为符号主义AI，典型的代表是专家系统。</p>
+
+<p>另一种是自底向上的方法（神经网络），模拟人脑的结构，它由大量称为神经元的简单单元组成。智能源自于概念之间在神经网络中的联结。也被称为连接主义AI。</p>
+
+<p>起初，符号推理是一种流行的方法。但这种方法并不适合大规模应用。</p>
+
+<p>随着计算资源，数据增加，神经网络方法(连接主义方法）开始成为主宰。现在我们听到的大部分人工智能的成功都是基于它们的，包括生成式AI。</p>
+
+<p>但两者也不是完全对立的，许多强大的模型都是通过巧妙融合两种方法的成果。例如CNN+SVM，前者提取特征，后者进行分类。</p>
+
+<h2 id="ai的发展历史">AI的发展历史</h2>
+
+<p>尽管科技的进步势不可挡，但人工智能的发展之路并不平坦，让我们回顾一下AI所经历的坎坷。</p>
+
+<p>“创新的技术在一开始总是被人们误解的。”
+                                —艾伦·凯伊</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/history-of-ai.png" alt="alt"></p>
+
+<p>1950年英国著名数学家，计算机科学家图灵在其论文中提出：“机器是否能够表现出与人类一样的智能？”，为了回答这个问题，他提出了一个实验，即图灵测试。</p>
+
+<p>此时，大洋彼岸的新中国刚成立一年，万事百废待兴。</p>
+
+<p>1956年的达特茅斯会议，被认为是人工智能领域的创始会议，共同探讨并提出了人工智能的研究方向和目标。</p>
+
+<p>同一年，约翰·麦卡锡提出了“人工智能”这个术语。从此，人工智能概念正式诞生。</p>
+
+<p>新事物的出现引来了资本和学术界的关注，1956-1966可谓人工智能的黄金十年。</p>
+
+<p>1957年，受生物神经元启发，弗兰克·罗森布拉特发明感知机，它也被视为神经网络的雏形。</p>
+
+<p>1962年,Arthur Samuel制作出可以下棋的电脑程序。</p>
+
+<p>1965年,Weizenbaum开发出ELIZA对话系统。</p>
+
+<p>1969年马文·明斯基等人指出弗兰克·罗森布拉特发明感知机无法解决异或问题。</p>
+
+<p>AI原本被寄予厚望,但技术的瓶颈使其在商业上并未取得成功，给人留下了不切实际的印象，导致资本和学术界开始对人工智能失去信心，人工智能开始步入第一个漫长的寒冬(1974-1980)。</p>
+
+<p>而此时的中国正在开展无产阶级文化大革命运动。</p>
+
+<p>1980年出现的专家系统仿佛又让人们看到了希望，它是一种模拟人类专家进行推理和解决问题的人工智能程序。其目的是将专家的领域知识和经验编码成系统,从而取代人工解决特定领域的问题。</p>
+
+<p>但专家系统仍然无法兑现被高度夸大的诺言,未能推广到更多领域，导致资本开始流向计算机，互联网等新兴技术，AI进入第二次寒冬(1987-1993)。</p>
+
+<p>而此时的中国正在进行改革开放，大力发展经济。</p>
+
+<p>1997年,二番战，IBM的深蓝超级电脑击败国际象棋冠军加里-卡斯帕罗夫。这标志着游戏人工智能系统取得重大进展。</p>
+
+<p>1998年,Yann LeCun团队提出的卷积神经网络LeNet,为后来的深度学习奠定基础。但由于数据和算力的因素，当时人工智能仍处于相对冷清的时期。</p>
+
+<p>2012年,AlexNet在视觉识别竞赛ImageNet中获得历史性的胜利,深度学习开始流行。</p>
+
+<p>随着互联网的发展，数据的获取变得容易，在摩尔定律的推动下，算力不断增长，AI又重新回到人们的视野。</p>
+
+<p>2016年,AlphaGo击败李世石,标志着深度学习在复杂游戏中的应用取得突破。这些事件将人工智能推向广泛关注的中心舞台。</p>
+
+<p>2022年，OpenAI发布ChatGPT，生成式AI席卷全球。</p>
+
+<p><strong>注意：上述对于中国事件的罗列，只为在时间上的参照</strong></p>
+
+<h2 id="人工智能技术体系中的层次结构">​人工智能技术体系中的层次结构</h2>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/aimldp.png" alt="alt"></p>
+
+<p>AI的目标是让机器具有人类一样的智慧，传统机器学习算法就是实现方式之一，其主要用于识别数据中的潜在模式。</p>
+
+<p>前面列出了AI发展历程中的大事记，下面让我们看看ML的发展史。</p>
+
+<p>1763, 1812：贝叶斯定理。</p>
+
+<p>1805：最小二乘法。</p>
+
+<p>1913：马尔科夫链。</p>
+
+<p>1967：最近邻算法。</p>
+
+<p>1970：反向传播算法。</p>
+
+<p>深度学习作为机器学习的一个分支，其兴起主要源于AlexNet在视觉识别竞赛ImageNet中获得历史性的胜利。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/quanjiafu.png" alt="alt"></p>
+
+<p>无论是传统机器学习还是深度学习,可以简化为三大要件:模型、优化算法和损失函数。</p>
+
+<p>模型定义了输入和输出之间的映射函数。</p>
+
+<p>损失函数用来量化模型效果的好坏。</p>
+
+<p>优化算法则根据损失函数的量化结果调整函数的参数,使模型效果最优。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/UdHXtri.png" alt="alt"></p>
+
+<p>除了上面三大件外，数据也是重要组成部分。</p>
+
+<p>传统机器学习和深度学习能够处理的数据形式稍有不同，传统机器学习善于处理数值特征，例如，使用线性回归预测房价中输入房间数，面积，是否临街等特征。</p>
+
+<p>[3,80,1]</p>
+
+<p>如果要用传统机器学习完成图像分类任务，则需要先手工对图片提取特征（SIFT，SURF，ORB，角点），然后再将特征输入到分类器中，例如SVM。</p>
+
+<p>处理数据形式不同本质上是因为两者的模型架构不同，传统机器学习模型没有自动提取特征的能力。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/machinemodels.png" alt="alt"></p>
+
+<p>深度学习则可以自动提取特征，CNN模型的架构使其非常适合处理图像这种需要考虑局部特征的数据形式，RNN则可以处理文本这种时序数据，深度学习中的ANN可以直接处理房价预测任务中数值特征。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/ANNCNNRNN.png" alt="alt"></p>
+
+<p>CNN中提取特征的部分通常称为骨干网络，最后根据特征来完成不同的任务。</p>
+
+<p>例如，如果是图像分类任务，也就是图片入，类别出，则在骨干网上后面加上FC和Softmax.</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/59954intro%20to%20CNN.jpg" alt="alt"></p>
+
+<p>如果是目标检测，也就是图片入，检测框类别和位置出，则在骨干网络后加上分类和回归，目标检测模型有两个派别，一种是单阶段模型，以YOLO为典型代表，另一种是二阶段模型，以RCNN为代表​。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/1_jYDMaYeH-TrcoofDqCdxug.png" alt="alt"></p>
+
+<p>如果是图像分割，也就是图片入，图片出，则是一个FCN全卷积网络。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/Image-segmentation-architectures.png" alt="alt"></p>
+
+<p>人类能说会看，机器也需要具备同样的能力，也正是前面讲的CNN和RNN奠定了深度学习在计算机视觉和自然语言处理这两个领域的成功应用基础。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/branches.png" alt="alt"></p>
+
+<h2 id="ai的数学原理">AI的数学原理</h2>
+
+<p>上层建筑离不开坚固的地基，任何一门技术也要有理论基础，AI也是如此。</p>
+
+<p>在机器学习中应用非常广泛的贝叶斯定理，最小二乘法，马尔科夫链，在AI出现很早以前就有了，它们源于数学和统计学领域,作为一般数理工具。在其他领域均有应用,并非专为AI而生。最小二乘法用于拟合模型参数,贝叶斯用于推断概率和更新信念。</p>
+
+<p>这也正好契合了机器学习的数学基础和思想，AI的数学原理主要包括线性代数，概率与统计，微积分，数值优化。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/math.jpg" alt="alt"></p>
+
+<p>数值化通过将数值、图像、文本数据统一表示成线性代数中的向量和矩阵,使其可以利用矩阵运算等线性代数工具进行处理。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/Screen-Shot-2017-11-07-at-12.32.19-PM.png" alt="alt"></p>
+
+<p>概率论和统计学为AI系统建模不确定知识和噪声数据提供了工具,最大化似然估计、最小化损失函数是求解参数的主要优化方法。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/mlenormal.png" alt="alt"></p>
+
+<p>而微积分中导数和梯度概念,是构建和训练神经网络时调节权重的关键,反向传播机制依赖梯度下降实现参数优化。
+<img src="/jekyll-theme-yat/assets/images/new%20book/1/1_XJ7ioX3mFycK5FwsLqVJ8w.png" alt="alt"></p>
+
+<p>在AI的发展过程中，有两个东西曾被视为最有可能实现人工智能，但最终却以失败告终。</p>
+
+<p><strong>专家系统</strong></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/ai-symbolic.png" alt="alt"></p>
+
+<p>专家系统被称为符号主义AI的代表。</p>
+
+<p>符号主义AI的核心是知识表示，将知识表示成计算机能理解的形式，什么是知识？我们要将数据，信息与知识的概念区分开，例如，我们可以通过学习书本成为专家，但书本上的只是数据。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/DIKW_Pyramid.png" alt="alt"></p>
+
+<p>但从专家那里提取知识、将其表示在计算机中，并保持知识库的准确性，是一项非常复杂的任务，在许多情况下成本过高，难以实际应用。</p>
+
+<p>其衰落直接导致了AI的第二次寒冬。</p>
+
+<p><strong>感知机</strong></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/Rosenblatt-wikipedia.jpg" alt="alt"></p>
+
+<p>1957年，弗兰克·罗森布拉特发明感知机被视为神经网络的雏形，而神经网络则被视为连接主义的代表。</p>
+
+<p>$y(x) =f\left( W^{T} x\right)$</p>
+
+<p>f是阶跃激活函数。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/1/acti.png" alt="alt"></p>
+
+<p>之后马文·明斯基等人指出弗兰克·罗森布拉特发明感知机无法解决异或问题。从今天的视角看，其本质是一个线性分类器，不能对非线性数据进行分类。</p>
+
+<p>这一发现暴露了感知机和早期连接主义人工智能的局限性。但这并不意味着人工智能本身存在障碍，它也促进了新的神经网络算法的产生,为后来兴起的深度学习埋下了伏笔。</p>
+
+<p>现在的前馈神经网络与罗森布拉的感知机相比，只是使用了非线性激活函数以及更深更宽的网络结构，如果罗森布拉特当初能继续尝试，他都有可能创造历史，因为根据万能逼近定理，即使单隐藏层的前馈神经网络也可以逼近任何连续函数。</p>
+
+<p>通过AI的发展历程可见，任何一种新兴技术的发展都不是一蹴而就的。AI的发展并没有因为寒冬而戛然而止，实时证明人工智能是大势所趋。</p>
+
+<p>被视为第四次工业革命核心的人工智能，必将是时代发展的必然产物。</p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F.html" title="一起学AI 0-序">一起学AI 0-序</a><a class="next" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.html" title="一起学AI 2.数学的迷">一起学AI 2.数学的迷</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="top-post">
+          <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC-%E6%96%87%E6%9C%AC-%E5%9B%BE%E5%83%8F-%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF.html" title="一起学AI 5-表格，图像，文本，声音的数字化是AI的开端">
+            一起学AI 5-表格，图像，文本，声音的数字化是AI的开端<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="top-post">
+          <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/24/0.%E5%BA%8F.html" title="一起学AI 0-序">
+            一起学AI 0-序<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/2024ainews/2024/05/29/No,-Today-s-AI-Isn-t-Sentient.-Here-s-How-We-Know.html" title="No, Today’s AI Isn’t Sentient. Here’s How We Know">
+            No, Today’s AI Isn’t Sentient. Here’s How We Know<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="top-post">
+          <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html" title="一起学AI 4-提升AI开发效率的抽象思维">
+            一起学AI 4-提升AI开发效率的抽象思维<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">
+<div id="utterances-placeholder"></div>
+<script>
+  const utterancesThemeFromDataTheme = () => {
+    const dataTheme = document.documentElement.getAttribute('data-theme');
+    return `github-${dataTheme}`;
+  };
+
+  const setUtterancesTheme = () => {
+    const iframe = document.querySelector('.utterances-frame');
+    if (iframe) {
+      const message = {
+        type: 'set-theme',
+        theme: utterancesThemeFromDataTheme()
+      };
+      iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+    }
+  }
+
+  // dynamic change
+  const observer = new MutationObserver((mutationsList, observer) => {
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+        setUtterancesTheme();
+      }
+    }
+  });
+  observer.observe(document.documentElement, { attributes: true, childList: false, subtree: false });
+
+  let utterancesScript = document.createElement('script');
+  utterancesScript.async = true;
+  utterancesScript.src = 'https://utteranc.es/client.js';
+  utterancesScript.crossOrigin = 'anonymous';
+  utterancesScript.setAttribute('issue-term', 'title');
+  utterancesScript.setAttribute('label', 'utterances comment');
+  utterancesScript.setAttribute('repo', 'AIDajiangtang/blogcomments');
+  utterancesScript.setAttribute('theme', utterancesThemeFromDataTheme());
+
+  const placeholder = document.getElementById('utterances-placeholder');
+  placeholder.parentNode.replaceChild(utterancesScript, placeholder);
+</script>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2017-2024 人工智能大讲堂</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/jekyll-theme-yat/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

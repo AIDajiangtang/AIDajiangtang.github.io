@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>一起学AI 3.通过一个例子重新认识AI | 人工智能大讲堂</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="一起学AI 3.通过一个例子重新认识AI">
+<meta name="author" content="人工智能大讲堂">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="一起学AI 3.通过一个例子重新认识AI">
+<meta property="og:description" content="一起学AI 3.通过一个例子重新认识AI">
+<link rel="canonical" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html">
+<meta property="og:url" content="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html">
+<meta property="og:site_name" content="人工智能大讲堂">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-11-30T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="一起学AI 3.通过一个例子重新认识AI">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"人工智能大讲堂"},"dateModified":"2023-11-30T00:00:00+00:00","datePublished":"2023-11-30T00:00:00+00:00","description":"一起学AI 3.通过一个例子重新认识AI","headline":"一起学AI 3.通过一个例子重新认识AI","mainEntityOfPage":{"@type":"WebPage","@id":"/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html"},"url":"/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/assets/images/gongzhonghao.png">
+  <link rel="canonical" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="/jekyll-theme-yat/feed.xml" title="人工智能大讲堂">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="人工智能大讲堂" src="/assets/images/gongzhonghao.png" onerror="this.style.display='none'">
+  人工智能大讲堂
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/categories.html">CATEGORIES</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a><a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner {
+      background: #000;
+    }
+  </style>
+<style>html .page-banner {
+      height:  36.8vh;
+      min-height: 38vh;
+    }
+    html[data-scroll-status="top"] .page-banner {
+      height: 100vh;
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.618;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.443724;
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(1) {
+      font-size: 4.25em; font-weight: bold; text-decoration: underline
+    }
+  </style>
+<style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(2) {
+      color: gold
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<video autoplay="" poster="https://bit.ly/3xTmdUP" playsinline>
+          <source src="https://vjs.zencdn.net/v/oceans.mp4">
+        </source></video>
+        <script>
+          (function() {
+            var video = document.querySelector('.page-banner .page-banner-img > video');
+            var videoPlay = function() {
+              video.play().catch (function() {
+                  video.muted = true;
+                  video.play();
+                });
+            }
+
+            video.onloadstart = function() {
+              video.currentTime = 8.5;
+              video.volume = 0.1;
+              video.muted = (video.volume == 0);
+              videoPlay();
+            }
+
+            video.onended = function() {
+              video.currentTime = 8.5;
+              video.volume = 0;video.play();}
+          })();
+        </script>
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner">
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">一起学AI 3.通过一个例子重新认识AI</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2023-11-30T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Nov 30, 2023
+    </time>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+  </div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p><a href="./2023-11-24-0.%E5%BA%8F.md">一起学AI 0-序</a></p>
+
+<p><a href="./2023-11-26-1.%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%9D%8E.md">一起学AI 1-AI的坎</a></p>
+
+<p><a href="./2023-11-29-2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.md">一起学AI 2-数学的迷</a></p>
+
+<h2 id="回顾总结">回顾总结</h2>
+
+<p>前三篇文章主要介绍了写“<strong>一起学AI</strong>”专栏的初衷、<strong>AI的历史和构成</strong>以及<strong>数学的历史和分支</strong>。</p>
+
+<p>旨在帮你形成<strong>完整的知识体系</strong>。</p>
+
+<p>但像这种综述性的文章本就不好写，它需要作者有很“广”的知识储备，以及很“深”的见解才能让文章的内容丰富饱满，且结构性、逻辑性更强。这样在读完之后才会在脑子里形成一张图。</p>
+
+<p>受限于作者的能力，仅通过这三篇文章似乎很难达到预想的效果，若您此刻仍感迷雾重重,不妨忘却所有细节,仅记住下面这两张图就好了。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/aimldp.png" alt="图1 AI构成：下面是数学原理，上面是AI应用"></p>
+
+<p>上面这张图描述了AI的静态结构，当您充分理解以后，就可以继续分析下面这张动态训练图。</p>
+
+<p>该图清晰描绘了AI三驾马车（模型，优化算法，损失函数）在训练过程中是如何相互作用的，无论是传统机器学习还是深度学习，模型架构可能有所差异，但训练流程基本类似,。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/UdHXtri.png" alt="图2 模型的训练流程"></p>
+
+<h2 id="一个具体的例子">一个具体的例子</h2>
+
+<p>如果前面的文字和图片仍未解开您所有的疑惑,不妨我们换个思路，从零开始用python代码实现一个模型，使其尽可能涵盖所有关键概念。</p>
+
+<p><strong>首先明确具体需求</strong>——我们希望AI完成什么任务？为便于演示，本文选择一个简单的二分类任务。</p>
+
+<p>除二分类外,常见任务还包括多分类、线性回归。</p>
+
+<p>在计算机视觉领域有图像分类、目标检测、图像分割。</p>
+
+<p>在自然语言处理领域有文本分类、总结、生成等。</p>
+
+<p><strong>第二步准备数据。</strong></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/geogebra-export.png" alt="alt"></p>
+
+<p>红色的点代表正样本y=1，蓝色的点代表负样本y=0，水平轴$x_{1}$和垂直轴$x_{2}$代表特征。</p>
+
+<p>这种数据我们也称为表格数据，除此之外，还有图像、文本、图数据。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>x1</th>
+      <th>x2</th>
+      <th>y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.59</td>
+      <td>6.98</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4.83</td>
+      <td>6.56</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5.41</td>
+      <td>6.38</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4.71</td>
+      <td>5.88</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>7.03</td>
+      <td>6.56</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>6.63</td>
+      <td>6.28</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>6.43</td>
+      <td>5.6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>6.47</td>
+      <td>5.06</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>无论是机器学习还是深度学习，在开始训练之前通常需对数据进行预处理。</p>
+
+<p>如果是表格数据，则需要将文字特征(是，否)数字化(One-hot Encoding)，处理缺失数据(删除或插值填充)，通过相关性分析删除与分类结果无关的特征(低相关性过滤)，删除重复或高度相关的特征(高相关性过滤，去重复)，并进行归一化(Min-Max Scaling ， Z-Score 等)来加快模型收敛以及消除量纲的影响。</p>
+
+<p>如果是图像,为了提升模型的泛化性能，就需要给模型看更多内容更丰富的数据，这就需要通过旋转,缩放,裁剪,颜色变换等操作扩增数据，同样图像也需要归一化(减均值除以标准差)。</p>
+
+<p>对于一些特殊领域的图像，例如，医疗图像可能还需要窗宽窗位的变换。</p>
+
+<p>如果是文本,则需要 tokenize 或 word embedding(Word2Vec, Glove, BERT 等)。</p>
+
+<p>为简化过程,本文将忽略数据预处理这一步。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">5.59</span><span class="p">,</span><span class="mf">6.98</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.83</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">5.41</span><span class="p">,</span><span class="mf">6.38</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.71</span><span class="p">,</span><span class="mf">5.88</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">7.03</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.63</span><span class="p">,</span><span class="mf">6.28</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.43</span><span class="p">,</span><span class="mf">5.6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.47</span><span class="p">,</span><span class="mf">5.06</span><span class="p">,</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">label</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>第三步,去图1中挑选一个适合任务的模型</strong>。许多模型都可完成此二分类任务,如逻辑回归、SVM、决策树、随机森林、Adaboost等传统机器学习模型；也可以使用深度学习中的ANN(前馈神经网络)模型。</p>
+
+<p>对于模型的选择，通常情况下深度学习模型要比传统机器学习拟合能力更强，但这并不意味着无论什么任务只要选择深度学习就好了，模型复杂度和数据量要成比例，如果初期数据量不多，传统机器学习可能是更好的选择，等到数据积累够了，再迁移到深度学习也不迟，所以，总结一下就是：不求最贵，但求最好。</p>
+
+<p>为简便起见，本文选择最简单的逻辑回归模型。</p>
+
+<p>如前所述,模型的作用是将输入映射到输出。对二分类任务而言,模型只需输出样本属于正类的概率。</p>
+
+<p>有人发现sigmod函数的性质正好满足这个要求。</p>
+
+<p>$$
+f( x) =\frac{1}{1+e^{x}}
+$$</p>
+
+<p>sigmoid 函数的输出界于 0-1 之间,符合概率的性质。当 x 大于 0 时,函数输出也将大于 0.5。根据设定,输出超过阈值0.5 即可判断该样本属于正样本类。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/S-curve.png" alt="alt"></p>
+
+<p>因为数据有两个特征，所以模型可以写成下面形式：</p>
+
+<p>$$
+f( x_{1} ，x_{2}) =\frac{1}{1+e^{-( w_{1} x_{1} +w_{2} x_{2} +b)}}
+$$</p>
+
+<p>根据sigmod函数的性质，如果$w_{1} x_{1} +w_{2} x_{2} +b\  &gt;0$就可以判定为正样本.</p>
+
+<p>换句话说，分类器的决策边界就是$w_{1} x_{1} +w_{2} x_{2} +b\ \ =0$这条直线，这样的分类器被称为线性分类器，如果数据线性不可分，则也可以使用非线性函数，例如，多项式函数。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/db.png" alt="alt"></p>
+
+<p>更进一步地，可以将上面公式转换成向量形式。</p>
+
+<p>$$
+f(\vec{x}) =\frac{1}{1+e^{-\vec{w}^{T}\vec{x}}}
+$$</p>
+
+<p>$\vec{x} =[ x_{1} ,x_{2} ,1] ,\vec{w} =[ w_{1} ,w_{2} ,b]$均为列向量。</p>
+
+<p>这样我们就已经进入到线性代数的领域，然后用线性代数中的工具进行计算了。</p>
+
+<p>向量$\vec{w}$就是要求解的参数，所谓机器的智能，在很大程度上源自其通过学习参数拟合函数的能力。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 用theta表示模型的参数W
+</span><span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">zeros</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="c1"># 逻辑回归模型
+</span><span class="k">def</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p><strong>第四步开始训练</strong></p>
+
+<p>根据图2可知，模型的训练过程可以概括为：通过优化算法迭代更新模型参数,以最小化预测结果与真实标签之间的损失函数值。</p>
+
+<p>模型我们已经有了，就是前面的逻辑回归函数，现在就差损失函数和优化算法了。</p>
+
+<p>首先要选择损失函数，对二分类任务,每个样本仅属于正负样本中的一个类别。对于第i个样本，如果是正样本，概率为$f( X_{i})$,如果是负样本，因为sigmod函数输出的是属于正样本的概率，所以概率为$1-f( X_{i})$</p>
+
+<p>因为所有样本都是独立同分布的，所以对于整个训练数据集来讲，整体概率为单个样本的乘积。</p>
+
+<p>$$ 
+L(\vec{w}) =\prod_{i=1}^{i=k} f( X_{i})\prod_{i=k+1}^{i=n}( 1-f( X_{i})) 
+$$</p>
+
+<p>X是所有训练数据组成的矩阵，$X_{i}$表示第i个样本的特征向量。</p>
+
+<p>n为训练样本总数，k为正样本个数。</p>
+
+<p>这实际上就是概率与统计中的似然函数，“似然”就是可能性的意思，通过最大化似然函数来求得参数的值就是<strong>最大似然估计</strong>，也就是求得参数W使得L(W)取得最大值。</p>
+
+<p>$$
+Max_{\vec{w}} L(\vec{w})
+$$</p>
+
+<p>因为标签$y_{i}$要么是0，要么是1，所以上面的似然函数可以进一步写成下面形式。</p>
+
+<p>$$
+L(\vec{w}) =\prod_{i=1}^{i=n} f( X_{i})^{y_{i}}( 1-f( X_{i}))^{1-y_{i}}
+$$</p>
+
+<p>多个指数函数的乘积不方便求解。我们可以对其取自然对数,将乘法转换为加法。</p>
+
+<p>由于目标是求函数最大值,可以将函数乘以-1后转化为求最小值问题。同时,对于n个数据,累加值可能非常大,使用梯度下降时则易导致<strong>梯度爆炸</strong>。为避免这一问题,可将累加式除以样本总数n进行归一化，它也被称为对数损失函数。</p>
+
+<p>$L(\vec{w}) =\frac{1}{n}\sum\limits_{i}^{n} -y_{i} f( X_{i}) -( 1-y_{i}) ln( 1-f( X_{i}))$</p>
+
+<p>如果你了解交叉熵损失函数，那么，上面的公式是不是就很熟悉了？其实，经过证明，逻辑回归中,使用交叉熵损失函数求解参数和使用最大似然估计求解参数,在数学上是等价的。</p>
+
+<p><strong>现在我们的目标就是求得参数W使得L(W)取得最小值。</strong></p>
+
+<p>$$
+Min_{\vec{w}} L(\vec{w})
+$$</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 损失函数    
+</span><span class="k">def</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>  
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">y</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y_pred</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">loss</span>
+</code></pre></div></div>
+
+<p>这时该优化算法出场了，在训练开始时，先随机初始化参数，然后利用梯度下降进行迭代更新。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/ball.png" alt="alt"></p>
+
+<p>首先需要L(W)对w求偏导数。</p>
+
+<p>$$
+\frac{\partial L(\vec{w})}{\partial \vec{w}} \ =\sum\limits_{i}^{n}( f( X_{i}) -y_{i}) X_{i}
+$$</p>
+
+<p>最后对参数进行更新：</p>
+
+<p>$$
+\vec{w} _{t+1} =\vec{w} _{t} \ -\ learningrate* \frac{\partial L(\vec{w})}{\partial \vec{w}}
+$$</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 梯度下降    
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">num_iterations</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>
+    <span class="n">gradient</span> <span class="o">=</span> <span class="n">X</span><span class="p">.</span><span class="n">T</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">y_pred</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="mi">9</span>
+    <span class="n">theta</span> <span class="o">=</span> <span class="n">theta</span> <span class="o">-</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">gradient</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span> 
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Iteration </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s">: Loss </span><span class="si">{</span><span class="n">loss</span><span class="si">:</span><span class="p">.</span><span class="mi">3</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>训练10000轮后，最终得到参数W=[-3.94707138  3.6713051   0.40745513],最后一个是b。</p>
+
+<p>其中，训练的轮数以及学习率都是超参数，可以通过经验获得，也可以通过AutoML得到，这个后续我们还会详细介绍。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/result.png" alt="alt"></p>
+
+<p>完整代码：</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="err">​</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">5.59</span><span class="p">,</span><span class="mf">6.98</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.83</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">5.41</span><span class="p">,</span><span class="mf">6.38</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.71</span><span class="p">,</span><span class="mf">5.88</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">7.03</span><span class="p">,</span><span class="mf">6.56</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.63</span><span class="p">,</span><span class="mf">6.28</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.43</span><span class="p">,</span><span class="mf">5.6</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mf">6.47</span><span class="p">,</span><span class="mf">5.06</span><span class="p">,</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="n">label</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="err">​</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="c1"># 参数初始化
+</span><span class="n">num_iterations</span> <span class="o">=</span> <span class="mi">10000</span>
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">zeros</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="c1"># 逻辑回归模型
+</span><span class="k">def</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="p">))</span>
+<span class="c1"># 损失函数    
+</span><span class="k">def</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>  
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">y</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">y_pred</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">loss</span>
+<span class="c1"># 梯度下降    
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">num_iterations</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="nf">sigmoid</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">theta</span><span class="p">))</span>
+    <span class="n">gradient</span> <span class="o">=</span> <span class="n">X</span><span class="p">.</span><span class="n">T</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">y_pred</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="mi">9</span>
+    <span class="n">theta</span> <span class="o">=</span> <span class="n">theta</span> <span class="o">-</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">gradient</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="nf">compute_loss</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span> 
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Iteration </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s">: Loss </span><span class="si">{</span><span class="n">loss</span><span class="si">:</span><span class="p">.</span><span class="mi">3</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+<span class="err">​</span>
+<span class="err">​</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>本例中我们只有训练数据集，但为了评估模型的泛化性能,通常需要将数据集划分为训练集、验证集和测试集。训练集用于训练模型,验证集用于调参和选择模型,测试集最终评估模型效果。</p>
+
+<p>在简单问题上,训练数据可完美拟合,但实际情况复杂许多。模型容易过拟合或欠拟合。这需要采取正则化、增强数据、 Ensemble等手段提高模型鲁棒性,同时在验证集上监测并相应调整模型结构与超参,从而在测试集取得更优泛化性能。</p>
+
+<p>对于分类任务，不同的阈值，同一个样本可能会被划分为不同的类别，如何选择合适的阈值呢？可以借助模型的评估指标，例如，通过绘制模型在不同阈值下的PR曲线或者ROC曲线来选择合适的阈值。</p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/confusionmatrix.png" alt="alt"></p>
+
+<p><img src="/jekyll-theme-yat/assets/images/new%20book/3/prcure.png" alt="alt"></p>
+
+<h2 id="展望未来">展望未来</h2>
+<p>如果通过前面的文章能够形成完整且清晰的知识体系，那么后面展开的细节精讲就会容易很多，磨刀不误砍柴工。
+对于如何精讲，同样面临两种选择——自底向上或自上而下。</p>
+
+<p>传统教学往往采取自底向上的方法，先建立数学基础，再介绍具体模型与应用。就像建造房屋，先打好地基。</p>
+
+<p>这虽然符合人的直觉，但对AI学习来说，我认为后者会更为实用。我们并不需要完整掌握深奥的数学原理才能进入AI应用的大门。事实上，许多成功的AI从业者都是从实际问题出发，根据遇到的困难与需求来驱动对理论知识的学习。</p>
+
+<p>网上对于调参侠的看法我也不是很赞同，在AI的从业之路上大多数人都得经过调参侠这一过程，也只有弄明白AI是什么之后才能跃迁到下一个等级。</p>
+
+<p>所以,后续的内容我会采取自上而下的方法,从应用入手,需要时再探索原理。这样既可快速建立实践能力,又不失去深入理解的动力。</p>
+
+<p>上面我们从0开始实现了一个二分类模型，实际上，使用机器学习框架仅用2行代码就能完成上述任务。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 创建逻辑回归分类器
+</span><span class="n">log_reg</span> <span class="o">=</span> <span class="nc">LogisticRegression</span><span class="p">()</span>
+<span class="c1"># 拟合训练集数据
+</span><span class="n">log_reg</span><span class="p">.</span><span class="nf">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>   
+</code></pre></div></div>
+
+<p>下一篇文章我会介绍一些常用的AI工具框架，以及如何使用大模型来提升工作效率，正所谓工欲善其事，必先利其器。</p>
+
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/29/2.%E6%95%B0%E5%AD%A6%E7%9A%84%E8%BF%B7.html" title="一起学AI 2.数学的迷">一起学AI 2.数学的迷</a><a class="next" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html" title="一起学AI 4-提升AI开发效率的抽象思维">一起学AI 4-提升AI开发效率的抽象思维</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="top-post">
+          <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/11/30/3.%E9%80%9A%E8%BF%87%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90%E9%87%8D%E6%96%B0%E8%AE%A4%E8%AF%86AI.html" title="一起学AI 3.通过一个例子重新认识AI">
+            一起学AI 3.通过一个例子重新认识AI<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="top-post">
+          <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/5-%E8%A1%A8%E6%A0%BC-%E6%96%87%E6%9C%AC-%E5%9B%BE%E5%83%8F-%E5%A3%B0%E9%9F%B3%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E6%98%AFAI%E7%9A%84%E5%BC%80%E7%AB%AF.html" title="一起学AI 5-表格，图像，文本，声音的数字化是AI的开端">
+            一起学AI 5-表格，图像，文本，声音的数字化是AI的开端<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="top-post">
+          <a class="post-link" href="/jekyll-theme-yat/%E4%B8%80%E8%B5%B7%E5%AD%A6ai/2023/12/07/4-%E6%8F%90%E5%8D%87AI%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%80%9D%E7%BB%B4.html" title="一起学AI 4-提升AI开发效率的抽象思维">
+            一起学AI 4-提升AI开发效率的抽象思维<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/2024ainews/2024/05/29/No,-Today-s-AI-Isn-t-Sentient.-Here-s-How-We-Know.html" title="No, Today’s AI Isn’t Sentient. Here’s How We Know">
+            No, Today’s AI Isn’t Sentient. Here’s How We Know<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments">
+<div id="utterances-placeholder"></div>
+<script>
+  const utterancesThemeFromDataTheme = () => {
+    const dataTheme = document.documentElement.getAttribute('data-theme');
+    return `github-${dataTheme}`;
+  };
+
+  const setUtterancesTheme = () => {
+    const iframe = document.querySelector('.utterances-frame');
+    if (iframe) {
+      const message = {
+        type: 'set-theme',
+        theme: utterancesThemeFromDataTheme()
+      };
+      iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+    }
+  }
+
+  // dynamic change
+  const observer = new MutationObserver((mutationsList, observer) => {
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+        setUtterancesTheme();
+      }
+    }
+  });
+  observer.observe(document.documentElement, { attributes: true, childList: false, subtree: false });
+
+  let utterancesScript = document.createElement('script');
+  utterancesScript.async = true;
+  utterancesScript.src = 'https://utteranc.es/client.js';
+  utterancesScript.crossOrigin = 'anonymous';
+  utterancesScript.setAttribute('issue-term', 'title');
+  utterancesScript.setAttribute('label', 'utterances comment');
+  utterancesScript.setAttribute('repo', 'AIDajiangtang/blogcomments');
+  utterancesScript.setAttribute('theme', utterancesThemeFromDataTheme());
+
+  const placeholder = document.getElementById('utterances-placeholder');
+  placeholder.parentNode.replaceChild(utterancesScript, placeholder);
+</script>
+</div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2017-2024 人工智能大讲堂</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/jekyll-theme-yat/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
